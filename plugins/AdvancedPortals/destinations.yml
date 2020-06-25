@@ -1,0 +1,40 @@
+# 
+#  ExampleDestination:
+#    world: it will be the world name
+#    pos:
+#      X:
+#      Y:
+#      Z:
+
+arena1:
+  world: kitpvp1
+  pos:
+    X: 0.3899895075859333
+    Y: 90.0
+    Z: 90.99341675593845
+    pitch: 1.1996896
+    yaw: 183.59735
+arena3:
+  world: kitpvp3
+  pos:
+    X: 146.63160165871
+    Y: 21.0
+    Z: 183.50442910966515
+    pitch: -3.7501497
+    yaw: -87.1355
+arena2:
+  world: kitpvp2
+  pos:
+    X: 160.53330223234096
+    Y: 106.0
+    Z: 508.3467445966495
+    pitch: 1.3500787
+    yaw: 271.344
+spawn:
+  world: world
+  pos:
+    X: -43.46236364294523
+    Y: 83.5
+    Z: -1238.8211587583714
+    pitch: -7.050279
+    yaw: 187.19879

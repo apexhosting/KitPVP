@@ -1,0 +1,69 @@
+JumpPads:
+  kitpvp1, 2, 90, 85:
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  kitpvp1, 1, 90, 85:
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  kitpvp1, 0, 90, 85:
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  kitpvp1, -1, 90, 85:
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  kitpvp1, -2, 90, 85:
+    plate: HEAVY_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  kitpvp2, 203, 107, 506:
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp2, 203, 107, 507:
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp2, 203, 107, 508:
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp2, 203, 107, 509:
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp2, 203, 107, 510:
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 157, 29, 201:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 158, 29, 193:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 157, 29, 184:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 157, 29, 182:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 157, 29, 183:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 158, 29, 174:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0
+  kitpvp3, 157, 29, 166:
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 45.0

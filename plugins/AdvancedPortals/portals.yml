@@ -1,0 +1,113 @@
+# 
+#  ExamplePortal:
+#    world: it will be the world name
+#    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
+#    pos1: # dont mess with the data here, if you do it may stop the portal from working.
+#      X:
+#      Y:
+#      Z:
+#    pos2:
+#      X:
+#      Y:
+#      Z:
+#    destination:
+#      issetpoint: true # if this was false point name would not be used and the coordinates would be saved here, it just adds more customisation.
+#      pointname: examplepoint # if issetpoint is false this wont be here and tppos will be.
+#      tppos:
+#        X:
+#        Y:
+#        Z:
+
+Exit1:
+  world: kitpvp1
+  triggerblock: AIR
+  destination: spawn
+  pos1:
+    X: 1
+    Y: 94
+    Z: 97
+  pos2:
+    X: -1
+    Y: 89
+    Z: 94
+  portalArgs:
+    command:
+      '1': ci
+      '2': spawn
+Arena1:
+  world: world
+  triggerblock: PORTAL
+  destination: arena1
+  pos1:
+    X: -43
+    Y: 90
+    Z: -1259
+  pos2:
+    X: -46
+    Y: 82
+    Z: -1261
+  portalArgs:
+    command:
+      '1': kp spawn
+Arena3:
+  world: world
+  triggerblock: AIR
+  destination: arena3
+  pos1:
+    X: -69
+    Y: 90
+    Z: -1237
+  pos2:
+    X: -71
+    Y: 82
+    Z: -1240
+  portalArgs:
+    command:
+      '1': kp spawn
+Exit3:
+  world: kitpvp3
+  triggerblock: AIR
+  destination: spawn
+  pos1:
+    X: 143
+    Y: 23
+    Z: 184
+  pos2:
+    X: 140
+    Y: 20
+    Z: 182
+  portalArgs:
+    command:
+      '1': ci
+      '2': spawn
+Exit2:
+  world: kitpvp2
+  triggerblock: AIR
+  destination: spawn
+  pos1:
+    X: 154
+    Y: 110
+    Z: 509
+  pos2:
+    X: 153
+    Y: 105
+    Z: 507
+  portalArgs:
+    command:
+      '1': ci
+      '2': spawn
+Arena2:
+  world: world
+  triggerblock: AIR
+  destination: arena2
+  pos1:
+    X: -17
+    Y: 90
+    Z: -1238
+  pos2:
+    X: -19
+    Y: 82
+    Z: -1241
+  portalArgs:
+    command:
+      '1': kp spawn

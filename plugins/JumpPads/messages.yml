@@ -1,0 +1,36 @@
+# This is the Message file for all Custom Jumppads messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# Set the Prefix and use %prefix% to add the corresponding prefix to a message.
+# Prepend any message with <ActionBar> to send it as an ActionBar message.
+# Leave a message blank ('') to disable it.
+# 
+# You can also create messages with Hover and Click events. Syntax options: (Space between comma and quote is NOT allowed)
+#  - ["Message","/Command"]
+#  - ["Message","Hover"]
+#  - ["Message","/Command","Hover"]
+#  - ["Message","/Command","Suggest"]
+#  - ["Message","/Command","Hover","Suggest"]
+# You can add as many events to a message as you want. Example:
+# '%prefix% &cInvalid arguments! ["&c&n&oHelp","/jumppads help","&aClick to get help!"]'
+# The "Suggest" tag is used if the click event should suggest the command. Default is Run.
+
+
+Prefix: '&7[&eJump Pads&7]'
+Messages:
+  PlayerOnly: '%prefix% &cCommand can only be used as a Player!'
+  InvalidPermission: '%prefix% &cYou do not have permission to do this!'
+  InvalidArguments: '%prefix% &cInvalid arguments! ["&c&n&oHelp","/jumppads help","&aClick
+    to get help!"]'
+  InvalidTarget: '%prefix% &cJumppads can only be created on pressure plates and slime
+    blocks!'
+  InvalidPower: '%prefix% &cYou do not have permission to set <power> above %maxPower%!'
+  ConfigurationsReloaded: '%prefix% &aConfiguration files successfully reloaded!'
+  Created: '%prefix% &aJumppad created!'
+  Deleted: '%prefix% &aJumppad deleted!'
+  NotAJumppad: '%prefix% &cThe targeted block is not a jumppad!'
+  InvalidAttribute: '%prefix% &cInvalid Attribute!'
+  AddedAttribute: '%prefix% &aThe attribute value has been set.'
+  RemovedAttribute: '%prefix% &aAttribute removed. Using default if any.'
+  NotSupported: '%prefix% &aNot supported in this version.'
+  UnsafeTeleport: '%prefix% &cThere is no safe destination at the jumppad!'

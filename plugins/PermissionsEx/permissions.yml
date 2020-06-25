@@ -1,0 +1,82 @@
+groups:
+  Roamer:
+    options:
+      default: true
+      prefix: '&8[&6Fighter&8] &7'
+    permissions:
+    - -minecraft.command.tell
+    - -minecraft.command.me
+    - -bukkit.command.help
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - kp.command.preview
+    - kp.ability.*
+    - kp.kit.*
+    - essentials.clearinventory
+    - modifyworld.*
+    - essentials.afk
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.ban.notify
+    - essentials.help
+    - essentials.ignore
+    - essentials.kick.notify
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.clear
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.mute.notify
+    - essentials.ping
+    - essentials.rules
+    - essentials.spawn
+    - essentials.suicide
+    - kp.command.stats
+    - kp.command.spawn
+    - kp.command.menu
+    - kp.allowitemdropping
+    - kp.givekititem
+    - kp.giveleaveitem
+    - kp.playertracker
+    - kp.soupreturn
+    - kp.arrowmessage
+    - kp.arrowreturn
+    - jumppads.use
+    worlds:
+      world:
+        permissions:
+        - -kp.kit.fighter
+        - -kp.command.kit
+        - -kp.command.menu
+        - -kp.kit.*
+  Mod:
+    options:
+      prefix: '&3&l[&3Mod&3&l]&3'
+    permissions:
+    - essentials.unbanip
+    - essentials.unban
+    - essentials.tempban
+    - essentials.banip
+    - essentials.ban
+    - essentials.mute
+    - essentials.kick
+  Admin:
+    options:
+      prefix: '&4&l[&cAdmin&4&l]&c'
+    permissions:
+    - -essentials.spawn-on-join.exempt
+    - '*'
+schema-version: 1
+users:
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    permissions:
+    - '*'
+    options:
+      name: robert_beckley
+    group:
+    - Admin
+  2e75cf7f-fae4-4f3e-9336-950a77bc6880:
+    permissions: []
+    options:
+      name: ShakeforProtein

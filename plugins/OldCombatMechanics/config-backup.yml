@@ -1,0 +1,307 @@
+
+############# OldCombatMechanics Plugin by gvlfm78 and Rayzr522 #############
+#                                                                           #
+# Bukkit Page: http://dev.bukkit.org/bukkit-plugins/oldcombatmechanics/     #
+# Spigot Page: https://www.spigotmc.org/resources/oldcombatmechanics.19510/ #
+# GitHub Page: https://github.com/gvlfm78/BukkitOldCombatMechanics/         #
+#                                                                           #
+#############################################################################
+
+# This is to toggle the update checker
+update-checker:
+  enabled: true
+  # Modes: auto, bukkit, spigot
+  mode: auto
+    
+# Enable the oldcombatmechanics.toggle permission
+# for players to individually /ocm toggle their cooldown
+enableIndividualToggle: false
+
+# List of interactive blocks that right clicking on will be ignored
+# This is for modules such as sword blocking and elytra
+interactive: [enchantment_table,anvil,brewing_stand,trapped_chest,chest,bed,boat,fence_gate,dispenser,dropper,furnace,jukebox,ender_chest,stone_button,wood_button,beacon,tripwire_hook,hopper,daylight_detector,daylight_detector_inverted,item_frame,diode,diode_block_off,diode_block_on,redstone_comparator,redstone_comparator_off,redstone_comparator_on,acacia_door,birch_door,dark_oak_door,jungle_door,spruce_door,wood_door,workbench,bed_block,lever,trap_door,burning_furnace,spruce_fence_gate,birch_fence_gate,jungle_fence_gate,dark_oak_fence_gate,acacia_fence_gate,white_shulker_box,orange_shulker_box,magenta_shulker_box,light_blue_shulker_box,yellow_shulker_box,lime_shulker_box,pink_shulker_box,gray_shulker_box,silver_shulker_box,cyan_shulker_box,purple_shulker_box,blue_shulker_box,brown_shulker_box,green_shulker_box,red_shulker_box,black_shulker_box]
+ 
+
+# To use the per-world feature you specify a list of the worlds in the []
+# For example: (names are case sensitive)
+# worlds: [world,survival,creative,SkyWars]
+# Another example (for 1 world): 
+# worlds: [bestWorld]
+
+disable-attack-cooldown:
+  # This is to disable the attack cooldown
+  enabled: true
+  worlds: []
+  # What to set the attack speed to. Default for 1.9 is 4, at least 16 is needed for no cooldown.
+  generic-attack-speed: 24
+  
+disable-player-collisions:
+  # This is to disable player collision
+  # This is now compatible with scoreboard and tablist-editing plugins
+  enabled: false
+  worlds: []
+  
+disable-sword-sweep:
+  # This is to disable the sword sweep attack
+  # The particle effect will still be present but will not affect surrounding entities
+  enabled: true
+  worlds: []
+  
+disable-crafting:
+  # Disable the crafting of specified items
+  enabled: true
+  worlds: []
+  # List of denied items
+  denied: [shield]
+  
+disable-offhand:
+  # Disable the usage of the offhand
+  # Won't affect sword-blocking module
+  enabled: true
+  worlds: []
+  # Whether the following list blocks items or allows them
+  whitelist: true
+  # List of items that should be allowed/not
+  # Example: [diamond_sword,BOW]
+  items: []
+  
+old-brewing-stand:
+  # Automatically refuels brewing stands
+  enabled: true
+  worlds: []
+  
+no-lapis-enchantments:
+  # Automatically adds lapis to enchantment tables upon opening
+  enabled: false
+  worlds: []
+  # Whether to only allow this for players with oldcombatmechanics.nolapis permission
+  usePermission: false
+  
+disable-elytra:
+  # Do not allow players to wear elytra
+  enabled: false
+  worlds: []
+  
+disable-enderpearl-cooldown:
+  # Disables enderpearl cooldown
+  enabled: true
+  worlds: []
+  
+old-tool-damage:
+  # This is to set the tool damage as in pre-1.9
+  # NOTE: this will modify the damage, however on the item tooltip it will still show the 1.9+ damage
+  enabled: true
+  worlds: []
+  # This will allow you to set the damage divider
+  # The default values below are obtained by doing (1.8 value)/(1.9 value)
+  # Only axes and shovel values changed between the versions, so all others here have a divider of 1
+  # We put them here anyway in case you wished to change them.
+  # The plugin subtracts the enchantment-added damage,
+  # divides the damage done while holding the weapon by the following values,
+  # and adds back on the enchantment-added damage.
+  damages:
+    # Axe damages
+    GOLD_AXE: 2.333333
+    WOOD_AXE: 2.333333
+    STONE_AXE: 2.25
+    IRON_AXE: 1.8
+    DIAMOND_AXE: 1.5
+    # Shovel damages
+    GOLD_SPADE: 2.5
+    WOOD_SPADE: 2.5
+    STONE_SPADE: 1.75
+    IRON_SPADE: 1.5
+    DIAMOND_SPADE: 1.375
+    # Sword damages
+    GOLD_SWORD: 1
+    WOOD_SWORD: 1
+    STONE_SWORD: 1
+    IRON_SWORD: 1
+    DIAMOND_SWORD: 1
+    # Pickaxe damages
+    GOLD_PICKAXE: 1
+    WOOD_PICKAXE: 1
+    STONE_PICKAXE: 1
+    IRON_PICKAXE: 1
+    DIAMOND_PICKAXE: 1
+    # Hoe damages
+    GOLD_HOE: 1
+    WOOD_HOE: 1
+    STONE_HOE: 1
+    IRON_HOE: 1
+    DIAMOND_HOE: 1
+
+sword-blocking:
+  # This is to allow players to block with swords again by getting a shield while they hold right click with a sword
+  enabled: true
+  worlds: []
+  # How much damage should blocking reduce
+  # This can either be a number in half-hearts (e.g 2) or a percentage (e.g. 20%)
+  # 1.8 default: 50%             1.9 default: 33%
+  blockingDamageReduction: 50%
+  # Whether shields can block damage entirely
+  # In 1.8 blocking could only reduce to 1/2 a heart
+  shieldFullBlock: false
+  # The minimum amount of damage, in half-hearts, if shieldFullBlock is enabled
+  minimumDamage: 1.0
+  # How often, it ticks, should OCM check if the player is still blocking with the shield and remove it if not
+  # If this is too fast the player will have their shield disappear before they're able to block again causing a slight delay
+  # If this is too slow players will have a shield in their hand well after they've stopped blocking
+  # 20 ticks = 1 second
+  restoreDelay: 40
+  # List of items that holding in the offhand while right-clicking with a sword doesn't trigger blocking e.g. bow
+  noBlockingItems: []
+  # Whether the above list should act as a blacklist (i.e. only items in it stop the blocking mechanic)
+  blacklist: true
+
+old-golden-apples:
+  # This is to change the behaviour / crafting of golden apples to how it was in pre-1.9
+  # WARNING: If on 1.12 or above and you disable this module you must reload the server for the recipe to disappear
+  enabled: true
+  worlds: []
+  # If you want to allow enchanted golden apple crafting
+  enchanted-golden-apple-crafting: true
+  # Enabling this makes the potion effects gained by eating golden apples
+  # and enchanted golden apples the same as it was in pre-1.9
+  old-potion-effects: true
+  # Potion effects golden apples should apply
+  # Duration is in ticks (20 ticks = 1 second)
+  # Amplifier is potion level -1, so Regeneration IV would be amplifier 3
+  gapple-effects:
+    regeneration:
+      duration: 100
+      amplifier: 1
+    absorption:
+      duration: 2400
+      amplifier: 0
+  # Potion effects enchanted golden apples should apply
+  napple-effects:
+    regeneration:
+      duration: 600
+      amplifier: 4
+    damage_resistance:
+      duration: 6000
+      amplifier: 0
+    fire_resistance:
+      duration: 6000
+      amplifier: 0
+    absorption:
+      duration: 2400
+      amplifier: 0
+  # Enable this if you have another plugin which adds a crafting recipe for
+  # enchanted golden apples (requires server restart)
+  no-conflict-mode: false
+
+old-fishing-knockback:
+  # This is to make the knockback of players when they get hit by a fishing bobber the same as it was in pre-1.9
+  # Credit to HyKurtis for the original code, optimised by Rayzr522
+  enabled: true
+  worlds: []
+  # This makes OCM check if other plugins are stopping the rod damage and follow their choice
+  # Set to false to always have rod damage
+  checkCancelled: false
+  # This is the damage done by the fishing rod attack
+  damage: 0.2
+  # Whether the EntityDamageEvent should be used instead of the EntityDamageByEntityEvent
+  # Set to true when using plugins like NCP that check range
+  useEntityDamageEvent: false
+  # This is to cancel dragging in the entity attached to the fishing rod when reeling in, like in 1.8
+  cancelDraggingIn: true
+  
+projectile-knockback:
+  # This adds knockback and/or damage to players when they get hit by snowballs, eggs & enderpearls
+  # This has been a Bukkit bug for so long people thought it was vanilla when it was recently patched
+  enabled: true
+  worlds: []
+  # This is the damage done by each projectile
+  damage:
+    snowball: 0.1
+    egg: 0.1
+    ender_pearl: 0.1
+
+old-player-regen:
+  # This is to make players' regeneration act mostly like it did in pre-1.9
+  # It's hard to make it behave exactly like before, but in general this makes it work like in pre-1.9
+  enabled: true
+  worlds: []
+  # How often, in seconds, a player should regenerate health
+  frequency: 3
+  # How many half-hearts the player should heal by, every seconds specified above
+  amount: 1
+  # How much exhaustion healing should give to the player. In 1.8: 3 In 1.9: 4 in 1.11: 6
+  # If, after adding this, Minecraft finds the value is above 4, it subtracts 4
+  # and either reduces saturation or, if saturation is 0, reduces food level by 1 (1/2 a stick)
+  exhaustion: 3
+
+old-armour-strength:
+  # This is to set armour strength values as in pre-1.9
+  enabled: true
+  worlds: []
+  # The higher the armour toughness value the closer the damage done while wearing armour is to pre-1.9 values
+  toughness: 9999
+  # This is to change the armour strength values if you so wish
+  strength:
+    # Leather armour
+    LEATHER_HELMET: 1
+    LEATHER_CHESTPLATE: 3
+    LEATHER_LEGGINGS: 2
+    LEATHER_BOOTS: 1
+    # Chainmail armour
+    CHAINMAIL_HELMET: 2
+    CHAINMAIL_CHESTPLATE: 5
+    CHAINMAIL_LEGGINGS: 4
+    CHAINMAIL_BOOTS: 1
+    # Golden armour
+    GOLD_HELMET: 2
+    GOLD_CHESTPLATE: 5
+    GOLD_LEGGINGS: 3
+    GOLD_BOOTS: 1
+    # Iron armour
+    IRON_HELMET: 2
+    IRON_CHESTPLATE: 6
+    IRON_LEGGINGS: 5
+    IRON_BOOTS: 2
+    # Diamond armour
+    DIAMOND_HELMET: 3
+    DIAMOND_CHESTPLATE: 8
+    DIAMOND_LEGGINGS: 6
+    DIAMOND_BOOTS: 3
+
+old-potion-effects:
+  # This is to restore the 1.8 potion effects before they were nerfed
+  enabled: true
+  # Strength potion
+  8228:
+    poison:
+      duration: 440
+      amplifier: 1????
+    
+disable-projectile-randomness:
+  # This is to remove projectile randomness while firing arrows with a bow
+  # This is actually a very old feature and has been in the game for quite some time
+  enabled: false
+  worlds: []
+    
+disable-bow-boost:
+  # This is to stop players from boosting themselves forward by hitting themselves
+  # while running with a punch II arrow from their bow
+  # This module just stops them from hitting themselves with arrows entirely
+  enabled: false
+  worlds: []
+
+################################
+#### SUPPORT SETTINGS BELOW ####
+################################
+support:
+  spartan-cancel-ticks: 1
+
+################################
+#### SPECIAL SETTINGS BELOW ####
+################################
+  
+# This enables debug messages, only enable when troubleshooting
+debug:
+  enabled: false
+
+# DO NOT CHANGE THIS NUMBER AS IT WILL RESET YOUR CONFIG
+config-version: 25

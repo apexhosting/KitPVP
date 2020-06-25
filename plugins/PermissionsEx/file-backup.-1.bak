@@ -1,0 +1,66 @@
+groups:
+  Roamer:
+    options:
+      default: true
+      prefix: '&8[&6Fighter&8] &7'
+    permissions:
+    - modifyworld.*
+    - essentials.afk
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.ban.notify
+    - essentials.help
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kick.notify
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.clear
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.mute.notify
+    - essentials.ping
+    - essentials.realname
+    - essentials.rules
+    - essentials.seen
+    - essentials.signs.use.disposal
+    - essentials.signs.use.free
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.use.signs.balance
+    - essentials.use.signs.enchant
+    - essentials.use.signs.buy
+    - kp.command.stats
+    - kp.command.spawn
+    - kp.command.menu
+    - kp.kits.fighter
+    - kp.kits.archer
+    - kp.kits.tank
+    - kp.kits.soldier
+    - kp.kits.bomber
+    - kp.kits.kangaroo
+    - kp.kits.warper
+    - kp.kits.witch
+    - kp.kits.ninja
+    - kp.kits.thunderbolt
+    - kp.kits.vampire
+    - kp.abilities. fighter
+    - kp.abilities.archer
+    - kp.abilities.tank
+    - kp.abilities.soldier
+    - kp.abilities.bomber
+    - kp.abilities.kangaroo
+    - kp.abilities.warper
+    - kp.abilities.witch
+    - kp.abilities.ninja
+    - kp.abilities.thunderbolt
+    - kp.abilities.vampire
+    - kp.allowitemdropping
+    - kp.givekititem
+    - kp.giveleaveitem
+    - kp.playertracker
+    - kp.soupreturn
+    - kp.arrowmessage
+    - kp.arrowreturn
+    - jumppads.use

@@ -1,0 +1,81 @@
+#--------------------------------------------------------------------------------------#
+#    ___ _   _ ___ _____ ___  __  __        _ _   _ __  __ ___     ___  _   ___  ___
+#   / __| | | / __|_   _/ _ \|  \/  |    _ | | | | |  \/  | _ \   | _ \/_\ |   \/ __|
+#  | (__| |_| \__ \ | || (_) | |\/| |   | || | |_| | |\/| |  _/   |  _/ _ \| |) \__ \
+#   \___|\___/|___/ |_| \___/|_|  |_|    \__/ \___/|_|  |_|_|     |_|/_/ \_\___/|___/
+#
+#  By: Benz56
+#--------------------------------------------------------------------------------------#
+
+#Permission node
+#   jumppads.create             - permission to create and delete/break JumpPads.
+#   jumppads.use                - permission to use JumpPads.
+#   jumppads.list.delete        - permission to delete JumpPads from '/jp list'.
+#   jumppads.list.tp            - permission to teleport to JumpPads from '/jp list'.
+#   jumppads.reload             - permission to reload plugin configuration.
+#   jumppads.maxpower.bypass    - permission to create JumpPads exceeding max power.
+#   jumppads.info               - permission to use the info command.
+
+# Plugin Prefix:
+# - Recommended: End prefix with two spaces.
+# - Leave BLANK to disable. - pluginPrefix: ''
+pluginPrefix: '&7[&eJump Pads&7] '
+
+# No permission message:
+noPermission: '&cYou do not have permission to do this!'
+
+# Max power:
+# - Power = 50 will launch you approximately 110 blocks.
+maxPower: 50
+
+# Launch direction:
+# true: launched in the direction the player is walking.
+# false: launched in the direction the player is looking.
+launchInWalkingDirection: true
+
+# Trail color when launched from JumpPad:
+# - Every Minecraft color is Valid (names(e.g. red) and color codes (e.g &c):
+# - Colors: http://imgur.com/a/v3TzU
+trail_enabled: true
+trail_color: 'red'
+# - Trail density = number of particles per block. Higher values = more distance between particles
+# - A density of 1 (lowest) is recommended for best visual appeal.
+trail_density: 1
+
+# Jumppads launch sound:
+# - Make sure the default sound is supported in your version.
+sound_enabled: true
+sound: ENTITY_WITHER_SHOOT
+
+# Should living entities (cows, pigs, villagers etc) get launched also?
+launchLivingEntities: true
+
+# Visualizer settings:
+# The visualizer creates a hovering rotating circle of particles above all JumpPads.
+Visualizer:
+  # Enable or Disable the visualizer.
+  enabled: true
+  # Set which type of particles should appear.
+  particleType: REDSTONE
+  # Set the color of the rotating particles.
+  # Colorizeable particle types: REDSTONE, SPELL_MOB and SPELL_MOB_AMBIENT.
+  particleColor: 'red'
+  # The max distance the visualizer is visible to the player.
+  renderDistance: 20
+  # The radius of the rotating circle.
+  circleRadius: 0.5
+  # The speed in which the circle rotates. Lower is faster. Minimum is 1.
+  rotationSpeed: 2
+
+# Enable launch effect:
+launchEffectEnabled: true
+# Choose an effect to be played here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+launchEffect: EXPLOSION_LARGE
+# Set the duration/data of the effect played.
+launchEffectDuration: 5
+
+# Update Checker.
+# false: All OPs are notified of a new update when they join.
+# true: OPs are only notified if they have the jumppads.update permission as well.
+# N.B. any user with the jumppads.update permission is notified; OP or not.
+updateCheckerPermissionOnly: false
