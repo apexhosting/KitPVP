@@ -35,7 +35,7 @@ Exit1:
       '1': ci
       '2': spawn
 Arena1:
-  world: world
+  world: KitPVP_world
   triggerblock: PORTAL
   destination: arena1
   pos1:
@@ -50,7 +50,7 @@ Arena1:
     command:
       '1': kp spawn
 Arena3:
-  world: world
+  world: KitPVP_world
   triggerblock: AIR
   destination: arena3
   pos1:
@@ -97,7 +97,7 @@ Exit2:
       '1': ci
       '2': spawn
 Arena2:
-  world: world
+  world: KitPVP_world
   triggerblock: AIR
   destination: arena2
   pos1:
