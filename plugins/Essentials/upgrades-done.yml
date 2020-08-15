@@ -8,3 +8,4 @@ updateUsersHomesFormat: true
 deleteOldItemsCsv: true
 banFormatChange: true
 userMapRepaired: true
+updateUsersIgnoreListUUID: true

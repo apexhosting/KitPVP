@@ -31,7 +31,7 @@ arena2:
     pitch: 1.3500787
     yaw: 271.344
 spawn:
-  world: world
+  world: KitPVP_world
   pos:
     X: -43.46236364294523
     Y: 83.5

@@ -1,4 +1,12 @@
+TNT:
+  Name: '&aThrowable TNT &7(Right Click)'
+  Enabled: true
 Arena:
+  GiveItemsOnRespawn: true
+  GiveItemsOnJoin: true
+  ResetKillStreakOnLeave: true
+  ToSpawnOnJoin: true
+  DeathParticles: true
   ClearPotionEffectsOnJoin: true
   ClearInventoryOnJoin: true
   ClearInventoryOnLeave: false
@@ -73,6 +81,7 @@ KitAlreadySelectedSound:
   Sound: ENDERDRAGON_HIT
   Pitch: 1
 Soups:
+  RegenAmount: 6
   Enabled: true
   RemoveAfterUse: true
   Name: '&aRegenerative Soups &7(Right Click)'
@@ -81,6 +90,7 @@ Soups:
   Sound: EAT
   Pitch: 1
 GiveSoupOnKill:
+  Delay: 0
   Amount: 1
   Enabled: true
   NoSpace: '%prefix% &cCould not give you Soup for your kill because your inventory
@@ -131,6 +141,7 @@ Respawn:
       for the player name'
     Enabled: false
 PlayerTracker:
+  TrackBelowY: 128
   Tracker: '&ePlayer Tracker'
   Message: '&b&lTarget: &3%nearestplayer% &b&lDistance: &3%distance%'
   NoneOnline: '&cNo Players Online'

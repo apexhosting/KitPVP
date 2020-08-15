@@ -1,23 +1,23 @@
 arenaone:
-  location: world, -43.510, 88.200, -1256.219
+  location: KitPVP_world, -43.510, 88.200, -1256.219
   lines:
   - '&8&m---------'
   - '&6&lArena One'
   - '&8&m---------'
 arenatwo:
-  location: world, -20.935, 88.200, -1238.469
+  location: KitPVP_world, -20.935, 88.200, -1238.469
   lines:
   - '&8&m---------'
   - '&b&lArena Two'
   - '&8&m---------'
 arenathree:
-  location: world, -66.257, 88.200, -1238.506
+  location: KitPVP_world, -66.257, 88.200, -1238.506
   lines:
   - '&8&m---------'
   - '&4&lArena Three'
   - '&8&m---------'
 spawn:
-  location: world, -43.454, 89.200, -1245.726
+  location: KitPVP_world, -43.454, 89.200, -1245.726
   lines:
   - '&b&lKitPvP &6&lServer'
   - '&8&m---------'
