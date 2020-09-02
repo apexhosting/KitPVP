@@ -1,5 +1,5 @@
 # Kit PvP
-![alt text](https://apexminecrafthosting.com/wp-content/uploads/2019/09/kitpvp.png)
+![alt text](https://apex-misc.s3.amazonaws.com/Images/PVP+Thumbnail.png)
 Kit PVP is a server variation that specializes mainly in PVP (Player vs Player). The players must choose from a pre-set category of kits, each with their own unique items. They use these kits to fight against each other, often earning points and reputation.
 
 https://apexminecrafthosting.com/kit-pvp-server/
