@@ -1,8 +1,8 @@
 groups:
-  Roamer:
+  Member:
     options:
       default: true
-      prefix: '&8[&6Fighter&8] &7'
+      prefix: '&8[&6Member&8] &7'
     permissions:
     - -minecraft.command.tell
     - -minecraft.command.me
@@ -43,8 +43,9 @@ groups:
     - kp.arrowmessage
     - kp.arrowreturn
     - jumppads.use
+    - kp.command.kit
     worlds:
-      world:
+      KitPVP_world:
         permissions:
         - -kp.kit.fighter
         - -kp.command.kit
@@ -69,14 +70,3 @@ groups:
     - '*'
 schema-version: 1
 users:
-  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
-    permissions:
-    - '*'
-    options:
-      name: robert_beckley
-    group:
-    - Admin
-  2e75cf7f-fae4-4f3e-9336-950a77bc6880:
-    permissions: []
-    options:
-      name: ShakeforProtein
