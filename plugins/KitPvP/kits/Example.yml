@@ -6,56 +6,56 @@ Inventory:
   Armor:
     Helmet:
       Name: '&7Example Helmet'
-      Item: IRON_HELMET
+      Material: IRON_HELMET
       Lore:
       - '&7This is the helmet of the Example Kit.'
     Chestplate:
       Name: '&7Example Chestplate'
-      Item: IRON_CHESTPLATE
+      Material: IRON_CHESTPLATE
       Lore:
       - '&7This is the chestplate of the Example Kit.'
     Leggings:
       Name: '&7Example Leggings'
-      Item: IRON_LEGGINGS
+      Material: IRON_LEGGINGS
       Lore:
       - '&7These are the leggings of the Example Kit.'
     Boots:
       Name: '&7Example Boots'
-      Item: IRON_BOOTS
+      Material: IRON_BOOTS
       Lore:
       - '&7These are the boots of the Example Kit.'
   Items:
     '0':
       Name: '&7Example Sword'
-      Item: IRON_SWORD
+      Material: IRON_SWORD
       Lore:
       - '&7This is the lore of the Example Sword.'
     '1':
       Name: '&7Example Bow'
-      Item: BOW
+      Material: BOW
       Lore:
       - '&7This is the lore of the Example Bow.'
     '2':
       Name: '&aExample Ability &7(Must be made in kit file)'
-      Item: GOLD_INGOT
+      Material: GOLD_INGOT
       Amount: 3
       Lore:
       - '&7This is the lore of the Example Ability.'
     '7':
       Name: '&7Example Arrows'
-      Item: ARROW
+      Material: ARROW
       Amount: 64
       Lore:
       - '&7These are the arrows for the Example Kit.'
     '8':
       Name: '&aTracking Compass'
-      Item: COMPASS
+      Material: COMPASS
       Lore:
       - '&7Use this item to track players nearby.'
 Ability:
   Activator:
     Name: '&aExample Ability &7(Must be made in kit file)'
-    Item: GOLD_INGOT
+    Material: GOLD_INGOT
   Message:
     Message: '%prefix% &7You have used your ability.'
     Enabled: true
@@ -64,8 +64,7 @@ Ability:
     Pitch: 1
     Enabled: true
   Potions:
-    SPEED:
-      Level: 5
+    SPEED: 5
       Duration: 5
   Commands:
     Commands:

@@ -29,4 +29,6 @@ BlockSpectatorMode: false
 PortalCooldown: 5
 ThrowbackAmount: 0.7
 CommandLevels: opchek
-ConfigVersion: true
+ConfigVersion: 0.5.11
+DisableGatewayBeam: true
+CommandLogs: true

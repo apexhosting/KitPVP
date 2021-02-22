@@ -1,11 +1,4 @@
 # SCOREBOARD FILE - Configure the look of the Scoreboard.
-#
-# Recommendations:
-# 1) Remember that there is a limit of 32 characters per line.
-# 2) If you customize the scoreboard, you should restart the server to see the changes.
-#
-# Please contact Cervinakuy (the developer) on Spigot if you have any problems.
-
 Scoreboard:
   General:
     Title: '&0     &r&b&lKIT-PVP     &0'

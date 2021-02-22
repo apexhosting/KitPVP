@@ -34,3 +34,4 @@ Messages:
   RemovedAttribute: '%prefix% &aAttribute removed. Using default if any.'
   NotSupported: '%prefix% &aNot supported in this version.'
   UnsafeTeleport: '%prefix% &cThere is no safe destination at the jumppad!'
+  InCombat: '%prefix% &cYou can''t use jumppads when in combat!'

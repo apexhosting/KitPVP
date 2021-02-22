@@ -1,10 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.2]
+
+### Changed
+- Updated to 1.16.5  
+- All plugins and addons updated  
+- Use paper as base Jar
+
 ## [2.1]
 
 ### Changed
-- Update COre Protect from 19.1 to 19.2
+- Update Core Protect from 19.1 to 19.2
 - Update EssentialsX from version 2.18.0 to 2.18.1
 - Update Jump Pads from version 1.24.19 to 1.24.20
 - Update ProtocolLib from version 4.5.1 Build 476 to 4.6.0 Build 480
@@ -42,6 +49,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.2]: https://github.com/apexhosting/KitPVP/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/KitPVP/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/KitPVP/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/KitPVP/releases/tag/1.0

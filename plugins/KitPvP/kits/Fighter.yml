@@ -6,34 +6,34 @@ Inventory:
   Armor:
     Helmet:
       Name: '&7Fighter Helmet'
-      Item: IRON_HELMET
+      Material: IRON_HELMET
     Chestplate:
       Name: '&7Fighter Chestplate'
-      Item: IRON_CHESTPLATE
+      Material: IRON_CHESTPLATE
     Leggings:
       Name: '&7Fighter Leggings'
-      Item: IRON_LEGGINGS
+      Material: IRON_LEGGINGS
     Boots:
       Name: '&7Fighter Boots'
-      Item: IRON_BOOTS
+      Material: IRON_BOOTS
   Items:
     '0':
       Name: '&aFighter''s Sword'
-      Item: IRON_SWORD
+      Material: IRON_SWORD
     '1':
       Name: '&aHealth Pack &7(Right Click)'
-      Item: ENDER_CHEST
+      Material: ENDER_CHEST
       Amount: 3
     '8':
       Name: '&aPlayer Tracker &7(Right Click)'
-      Item: COMPASS
+      Material: COMPASS
     Fill:
       Name: '&aRegenerative Soup &7(Right Click)'
-      Item: MUSHROOM_SOUP
+      Material: MUSHROOM_SOUP
 Ability:
   Activator:
     Name: '&aHealth Pack &7(Right Click)'
-    Item: ENDER_CHEST
+    Material: ENDER_CHEST
   Message:
     Message: '%prefix% &7You have used a &aHealth Pack&7.'
     Enabled: true
@@ -42,11 +42,9 @@ Ability:
     Pitch: 1
     Enabled: true
   Potions:
-    SPEED:
-      Level: 2
+    SPEED: 2
       Duration: 10
-    REGENERATION:
-      Level: 2
+    REGENERATION: 2
       Duration: 10
   Commands:
     Commands:

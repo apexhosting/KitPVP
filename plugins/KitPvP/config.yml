@@ -104,6 +104,11 @@ Kill:
     - 'player: These commands are run by the player, you can use the %killer% variable
       for the killer name'
     Enabled: false
+  SoupReward:
+    NoSpace: '%prefix% &c%amount% soups could not be added to your full inventory.'
+    Amount: 1
+    Delay: 0
+    Enabled: true
 Death:
   Title:
     Time: 5
@@ -131,6 +136,7 @@ Death:
     Fire: '%prefix% &b%victim% &7died from fire.'
     Explosion: '%prefix% &b%victim% &7blew up.'
     Unknown: '%prefix% &b%victim% &7died.'
+    Suicide: '%prefix% &b%victim% &7killed themselves.'
 Respawn:
   Commands:
     Commands:
@@ -145,6 +151,7 @@ PlayerTracker:
   Tracker: '&ePlayer Tracker'
   Message: '&b&lTarget: &3%nearestplayer% &b&lDistance: &3%distance%'
   NoneOnline: '&cNo Players Online'
+  Name: '&aPlayer Tracker'
 Commands:
   Alias:
     Spawn: false
@@ -192,3 +199,8 @@ Storage:
     Port: 3306
     Username: walrus
     Password: supersecretpassword
+Chat:
+  Format: '%level% &e%player% &f%message%'
+  Enabled: true
+Other:
+  AutomaticallyAddKitToMenu: true

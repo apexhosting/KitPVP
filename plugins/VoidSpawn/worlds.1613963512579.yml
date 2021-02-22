@@ -1,0 +1,19 @@
+version: 1
+kitpvp1:
+  spawn:
+    x: -43.5
+    y: 83.0
+    z: -1250.5
+    pitch: -5.4006653
+    yaw: 359.55795
+    world: kitpvp1
+  mode: spawn
+world:
+  spawn:
+    x: -43.53687282502979
+    y: 83.5
+    z: -1237.1280304920913
+    pitch: -4.7998924
+    yaw: -177.58632
+    world: world
+  mode: spawn
