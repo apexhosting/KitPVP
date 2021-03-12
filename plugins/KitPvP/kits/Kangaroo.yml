@@ -46,6 +46,7 @@ Inventory:
     Fill:
       Name: '&aRegenerative Soup &7(Right Click)'
       Material: MUSHROOM_SOUP
-Potions:
-  JUMP: 2
+Effects:
+  JUMP:
+    Amplifier: 2
     Duration: 100000

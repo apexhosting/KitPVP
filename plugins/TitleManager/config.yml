@@ -114,10 +114,10 @@ welcome-title:
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
-  title: Welcome to My Server
+  title: '&c&lKIT &7&lPVP'
 
   # The subtitle shown.
-  subtitle: Hope you enjoy your stay
+  subtitle: '&7Get ready to battle!'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -132,10 +132,10 @@ welcome-title:
   first-join:
 
     # The title shown.
-    title: Welcome to My Server
+    title: '&c&lKIT &7&LPVP'
 
     # The subtitle shown.
-    subtitle: This is your first time!
+    subtitle: '&7Get ready to battle!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -148,7 +148,7 @@ welcome-title:
 welcome-actionbar:
 
   # Toggles this feature.
-  enabled: true
+  enabled: false
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)

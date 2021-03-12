@@ -23,32 +23,30 @@ Inventory:
     '1':
       Name: '&aSpeed Boost &7(Right Click)'
       Material: FEATHER
-      Amount: 3
     '8':
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:
       Name: '&aRegenerative Soup &7(Right Click)'
       Material: MUSHROOM_SOUP
-Potions:
-  SLOW: 2
+Effects:
+  SLOW:
+    Amplifier: 2
     Duration: 100000
-Ability:
-  Activator:
-    Name: '&aSpeed Boost &7(Right Click)'
-    Material: FEATHER
-  Message:
-    Message: '%prefix% &7You have used a &bSpeed Boost&7.'
-    Enabled: true
-  Sound:
-    Sound: ZOMBIE_IDLE
-    Pitch: 1
-    Enabled: true
-  Potions:
-    SPEED: 7
-      Duration: 10
-  Commands:
-    Commands:
-    - 'console: This command is run from the console, you can use %player%'
-    - 'player: This command is run from the player, you can use %player%'
-    Enabled: false
+Abilities:
+  SpeedBoost:
+    Activator:
+      Name: '&aSpeed Boost &7(Right Click)'
+      Material: FEATHER
+    Cooldown:
+      Cooldown: 40S
+    Message:
+      Message: '%prefix% &7You have used a &bSpeed Boost&7.'
+    Sound:
+      Sound: ZOMBIE_IDLE
+      Pitch: 1
+      Volume: 1
+    Effects:
+      SPEED:
+        Amplifier: 7
+        Duration: 10

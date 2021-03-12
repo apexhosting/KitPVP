@@ -11,8 +11,16 @@
 #
 regions:
     lobby2:
-        min: {x: 150.0, y: 102.0, z: 480.0}
-        max: {x: 203.0, y: 135.0, z: 535.0}
+        min: {x: 150, y: 102, z: 480}
+        max: {x: 203, y: 135, z: 535}
+        members: {}
+        flags: {pvp: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    kp2:
+        min: {x: 259, y: 72, z: 459}
+        max: {x: 276, y: 122, z: 469}
         members: {}
         flags: {pvp: deny}
         owners: {}
@@ -20,7 +28,7 @@ regions:
         priority: 0
     __global__:
         members: {}
-        flags: {vine-growth: deny, build: deny, fall-damage: deny, leaf-decay: deny,
+        flags: {vine-growth: deny, build: deny, use: allow, fall-damage: deny, leaf-decay: deny,
             ice-melt: deny, interact: allow, pvp: allow, mob-spawning: deny}
         owners: {}
         type: global

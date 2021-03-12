@@ -2,7 +2,7 @@ worlds:
   KitPVP_world:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: KitPVP_world
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -49,7 +49,7 @@ worlds:
   kitpvp2:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: kitpvp2
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -96,7 +96,7 @@ worlds:
   kitpvp3:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: kitpvp3
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -143,7 +143,7 @@ worlds:
   KitPVP_world_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: KitPVP_world_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -183,7 +183,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-3618392786020900694'
+    seed: '-9213734102096981458'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

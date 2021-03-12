@@ -1,4 +1,7 @@
-# SIGNS FILE - Customize the formatting of the signs, and also the storage for the locations of the signs.
+# To learn how to create signs, please
+# visit the signs.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/signs.yml
+
 Signs:
   Kit:
     Line-1: '&7[&b&lKIT-PVP&7]'

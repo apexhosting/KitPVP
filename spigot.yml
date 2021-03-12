@@ -168,3 +168,5 @@ world-settings:
     seed-feature: 14357617
   worldeditregentempworld:
     verbose: false
+players:
+  disable-saving: false

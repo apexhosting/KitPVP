@@ -1,8 +1,7 @@
-# MESSAGES FILE - Configure nearly every message in the plugin.
 Messages:
   General:
     Prefix: '&7[&b&lKIT-PVP&7]'
-    Permission: '%prefix% &cYou do not have permission.'
+    Permission: '%prefix% &cYou do not have permission (%permission%).'
     Player: '%prefix% &cYou must be a player to perform this action.'
   Commands:
     Create: '%prefix% &7The kit &b%kit% &7has successfully been created.'
@@ -13,9 +12,9 @@ Messages:
     Teleport: '%prefix% &7Teleported you to the spawn.'
     Teleporting: '%prefix% &7Teleporting, do not move.'
     Time: '%prefix% &7Teleporting you in &b%time% seconds&7.'
-    Added: '%prefix% &7Successfully set the spawn in arena &b%arena%&7.'
+    Added: '%prefix% &7Successfully added spawn &b#%number% &7in arena &b&b%arena%&7.'
     Removed: '%prefix% &7Successfully removed the arena &b%arena%&7.'
-    Reload: '%prefix% &7Successfully reloaded the configurations.'
+    Reload: '%prefix% &7Successfully reloaded the configurations and cleared caches.'
     Cleared: '%prefix% &7Your kit has been cleared.'
     ClearedOther: '%prefix% &7You cleared &b%player%''s &7kit.'
   Other:
@@ -26,7 +25,7 @@ Messages:
     NoKit: None
   Error:
     Player: '%prefix% &cYou must right-click on a player to activate this ability.'
-    Arena: '%prefix% &cYou are not currently an in arena.'
+    Arena: '%prefix% &cNo arena exists with name %arena%.'
     ExistsArena: '%prefix% &cThe specified arena does not exist.'
     Exists: '%prefix% &cThe specified kit already exists.'
     Lost: '%prefix% &cKit not found! Remember kit names are case-sensitive!'
@@ -39,10 +38,9 @@ Messages:
     Location: '%prefix% &cYou are not in the arena to perform this action.'
     KitInvalid: '%prefix% &cYou cannot perform this action because you have a kit
       selected.'
-    Cooldown: '%prefix% &cYou cannot select this kit for another %cooldown%.'
-    Offline: '%prefix% &cThe specified player is not online or not in an arena.'
     CooldownKit: '%prefix% &cYou cannot select this kit for another %cooldown%.'
     CooldownAbility: '%prefix% &cYou cannot use this ability for another %cooldown%.'
+    Offline: '%prefix% &cThe specified player is not online or not in an arena.'
     Menu: '%prefix% &cFailed to automatically add to the menu, the menu may be full.'
     PVP: '%prefix% &cPVP is not permitted in this region.'
   Stats:

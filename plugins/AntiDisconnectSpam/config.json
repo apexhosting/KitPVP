@@ -1,0 +1,12 @@
+{
+  "if_disable_kick": true,
+  "disabled_reasons": [
+    "disconnect.spam",
+    "disconnect spam",
+    "Kicked for spamming"
+  ],
+  "if_send_warn_message": false,
+  "warn_message": "\u0026cHey, \u00267stop spamming!",
+  "if_change_kick_reason": true,
+  "changed_kick_reason": "\u0026cHey, \u00267stop spamming!"
+}

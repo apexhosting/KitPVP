@@ -1,0 +1,286 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '5':
+    metadata:
+      cached-skin-uuid-name: daltondorf
+      cached-skin-uuid: 1a0292ff-e742-4c95-9485-76c658bafb67
+    name: §c§lSTATS
+    uuid: 946398bb-c8fe-4135-8b08-f8be666bf450
+    traits:
+      location:
+        bodyYaw: 17.84784
+        world: kitpvp1
+        x: '3.554'
+        y: '90.0'
+        z: '86.3552'
+        yaw: '17.8478'
+        pitch: '2.9997'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: kp stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: SjmBeXyhHeKRyBzSJM/9Acq9+Ajun39G6nUAKZ0tkpV7p+B/lu9HTqvgBbF6sS9i2kXi2QwuCd3y8IL82Vpgkei+xEA2I3MwrQ2Iqlyoesd5+Kq2tDo20Dh5/QRr1OcRmX1XmE6X0BDjIhHD51LwtAhSiYeHVj0yjvJwPXd6hnC90GZCVpeWAfxYN8jGDE8Siat/5aoe1gQfirtFadIidFXAwrDi9ZeKWMLngDckrEkNWGjVEvd4GXFJMMPvx1rt6VuXrxQcKAjiJwevE95o3YBoqC+tUVcg05Ggt+x2HKhkzYATKfDm3BYhyo/2KLjupQ6DD03OxuHsjtGWagKs5qocKsx6JehCBI2LsQ020iDu1+sWxXbJrul9ilxhU1CDfIdk89XM05UsCniGytaFKcJrm/v49YOI+6gcQsw1lREkSUuTSlhMhvNVPJyV5UyFBwjbckBqPKINC3mim04GvuKMssBvMyXskt3XXjLHMBt1qj6dPEcq4pD7kG46eDW6TG9RX1G8Bp0lZ21mCWIsy76sR8Jq6BSBED3faQD2L/fJThNwq64QWAiTtmsQ8t0nuMb5z9AUd6m9lwjt8zQeuZ/vIzf3ArdMoJzCxDWiAyV0Zrfr6LNQ0BkPp+Xt5r68scXrhaHzLCVDgzjskhdpEKdG5O3M9HdeGNeosWddPwo=
+        skinName: daltondorf
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNTQxNTA3MSwKICAicHJvZmlsZUlkIiA6ICIxYTAyOTJmZmU3NDI0Yzk1OTQ4NTc2YzY1OGJhZmI2NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYWx0b25kb3JmIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2OGRlZGY5YjM5OTE3NmVlYjZhZmRhMDFkZjM3MzU3N2FjZThmNGZlM2Y2MWU2OTE1OTNhMjQ1NWFkODNjYWQiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,inventory,owner,location,skintrait,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid-name: aaron1998ish
+      cached-skin-uuid: 9cd41984-9817-4b6c-a8e7-fe4d33d1e6cb
+    name: §a§lHUB
+    uuid: 35fa096c-6828-41ff-8329-319645288b75
+    traits:
+      location:
+        bodyYaw: 355.3478
+        world: kitpvp1
+        x: '-2.4973'
+        y: '90.0'
+        z: '86.3738'
+        yaw: '-4.6522'
+        pitch: '7.7997'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: spawn
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: clear
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: NJ/5xzTbsmm1/u/pVGKrOmV9u2a1vBZUjWHsoGUUAz3EBGUDrgd9FLSUgVk/w2mxcny2UA2GchEWGu0LZ9TfXYMPry5e4+BwMovC7nf3WdM9H5gUH2gPmydyUysA799yNOFAdLk0eNMoJR1nVHTKbcLS3a24C7CBebUGWqW+OJ3lN9ypQ0i33eb1pUGXx444YCztez9alzBILxFAc3AnLKbhD4YD9ykpdWk/kjWybxpodYuPeI6EUc4DLvwSQlGWPsglwXbtZxYDbj73NLMEAX/Q6IW3GsVfmhP5EDwJNscRX3YESxQggvt8gFV2uvp+dEpElTpz7gQe+FrD95jp2kgsEyTaRgARsNh6/1ENE8myrwA/tQ0dl8XyHFF1V6JYeEcUbwmzLWFQ8++8VvvAKBt5rumEsCIC49QTLjDkVsLPhfCZJeNQDkpG768WFx0rlhwKyD+zrGAo3uqHx8SwgHck00yecJ3qIuYEy5iy32zRgbLQxo1VpfvwJlY9oKZR2dqUuZysKd/fjMEoulVBEHCRBPWqYa4KqnbFsqsqbR1EX/PjsaiKIDPoaedLZxj2LZG8FYwzKhCJ983Mi5bBmYFxXicFz9zc7mIfCoOLhXBFaW0GCSlcP6G811XO96gXfbo6qLMVE3008E4U0psudospZJjA+X169Wqk9q8KvWE=
+        skinName: aaron1998ish
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNzA2NTA2OSwKICAicHJvZmlsZUlkIiA6ICI5Y2Q0MTk4NDk4MTc0YjZjYThlN2ZlNGQzM2QxZTZjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhYXJvbjE5OThpc2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU3YzNkNWJjODQ2NzNiZWY1Nzk3ODQ4MDE5NWE0YmMzNWMxOWMxYWMxMGY5ZTJkMWQ4NWE5YzhkMzZhYzNiMiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,inventory,location,owner,skintrait,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: allandev
+      cached-skin-uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+    name: §c§lSTATS
+    uuid: dfb9dbe1-91a7-455e-befd-b41334818327
+    traits:
+      location:
+        bodyYaw: 201.6175
+        world: kitpvp2
+        x: '264.3258'
+        y: '73.0'
+        z: '468.6728'
+        yaw: '-158.3825'
+        pitch: '8.4001'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: kp stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: bol9AoCbn/07tcLRbDX7eIeJ2t3H80eGIFW+uMXpjv+1suRYfrL8jgDEpWT1EwA74ETmSdJanDpET8FLv3l5m1YB06b5Ejsxh1mRxHWOR+QxLL20YfYRTn3jQf/Sg+LFBdWCzYAos398vsgMxcidbwFisD9/q368GhnbWQ5ymD9u7gNsRFDOfV2jDDEWVc/guXBWK5rE5MBc0SBK23dWsN2foGQRf6G3sWKJZe/+YGxsE936o5MdQWGTQO3fy9gktimN5i8M/JesK2TM6BaWwz2ofMuRKISXOlUyMFtZ6/gRQesBrH88encOWCf5HcGE6uMSUvwXJjRRPK5iTKl9jJkn5SjZwx0AII4sb1zuQPY9/3/TZO2o2xUQcPa9lgJzIUn97qdOmwCzaOks7B6eGJxyxTsuCu68Vz9I4skXnZTPUPTB52pfKPNtR5t4rns2sLtcmT0p9oGZsBlJXyE12X9u1lj0NNfcRL19LLlhgswZcplu6IuYgjDaSdSNIBdi18DNV3gp/uwH5U4PGsHkJJnQv/khdjQOajNbLYLW9IieFn9+f/S9BaoCe8KbHo3AQgnMwEdvACKxX31gmcXniWTsA9ryFS+nG4h+HvjZSpVd4tFnkvoS3GznE8WbamJVHJbAQ7z9bsqyye514CGtW67OQnzI81PnrlUyKAIAyoE=
+        skinName: allandev
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNjk4MDA4NCwKICAicHJvZmlsZUlkIiA6ICJiZGM4MzUwMjZkNzU0YzI2YTYzMzcyOWU5ZWQ4MWFlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGxhbkRldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YjY1ZDJjN2U0MjM3Njc1MmIyYzkzMDgwNjg2OTEyZTk5YTFmMmZhOTQyY2IxMTM2NTMzZGEzOWEyNTM2OWQ0IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,owner,inventory,location,skintrait,mounttrait,scoreboardtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: lordsherman
+      cached-skin-uuid: 7e418993-7482-43b2-a8f6-740d6a308ce5
+    name: §a§lHUB
+    uuid: 54fc2f95-fb5a-4083-ae7c-a6f1be65f116
+    traits:
+      location:
+        bodyYaw: 155.5675
+        world: kitpvp2
+        x: '271.3663'
+        y: '73.0'
+        z: '468.7183'
+        yaw: '155.5675'
+        pitch: '12.4501'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: spawn
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: clear
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: x9WcbQwz6xxRkp1a+kakNKSQw28asnbiF/enHbyV+2Lm+4khpDG62kcerh75QcTqfwCRuZdJFrmabOzt6yD1gYk6QlIOfDlEP9Skaqv05zGg31u+EzssLk1z9T24e2OBKrXwl3PIzLUoakn6FrCXwhHNLJecBj5SyXxp8NHy3QjeKbKS+pcSDarKpXB8ZAE0N/nh2EaDTBQWLadkuXwEaPGXESfwCIfOfzRX0YczZjDNguoxNZb9EJMnC0Q0z+e5LA6rYNZ4Fw51wXVGLWnPbrUwFSCLgg6QPjKl7PBqiWpKGkVy3/IKDJD2Rct5NyRje4MxphraC6s//wrszt/2k1JNbPuBdT7UPuiNg+VAnLHRKnVNhdg2MgsKDGQaAKgHCu3jVg10fur9588yrs6kObIOQm7azRQkIIUh9hNbjzG7B1Lnpv2aD/wz8FU3xEq5jlvPkXGx6I+gzutlok+yLinWPQHyK1P5ytEojmKrLoGdebCnJPGkNGgfih8eNh/BXqyIx1UGQBKrzTcVuqPos8njCSDSEmA27seQa7dEDREg/UoM0MEwl+UO2ndY3AFNaWIa44ArXok+xVPWUDgXMh2nZK16uiAm39mpr3GcWKdhmSaBm+NraY6nCATuAe0oDlGux1bwuPx1LRn2xEm1uKjN49fD1cZgyYWXhj58MDk=
+        skinName: lordsherman
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNTM3NDA3MiwKICAicHJvZmlsZUlkIiA6ICI3ZTQxODk5Mzc0ODI0M2IyYThmNjc0MGQ2YTMwOGNlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkU2hlcm1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MzlmYTk1YzU0NzNhMzBkMWEwNzM2ZTFiZjQ4NTljZTZjNjlkZWYwZTIyM2M2MDhlYTdmNjQwYzg5ZTk2YWQyIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,location,owner,inventory,skintrait,mounttrait,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: jigbon
+      cached-skin-uuid: 43015a4f-140e-474e-872f-f7b0b4d79313
+    name: §c§lSTATS
+    uuid: 5f5bc7e6-25f7-4acd-b8fb-d4a30cf70a3f
+    traits:
+      location:
+        bodyYaw: 17.101562
+        world: KitPVP_world
+        x: '-38.561'
+        y: '84.0'
+        z: '-1257.5215'
+        yaw: '17.1016'
+        pitch: '3.5998'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: kp stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: necyhNMBPqvts1g57BZUcS7i15NpasKr5d7s/HDummm62skiEuIZU4EgyOPJAHf/a9TX68ODObhqu4yWA+Nb7w/aLW/ztEnK6dafa/O1XyO8OKxk5vyPU4UmedHAGRxqKUeNRZNQ8rWYjuoYmLf5dZTUXxYjIchDTSH97FROA1gqGrYW/WM0CYk5oWesyUBwaLblyg99tVZR4n2zbRczRO08NGgmhX9rP7zkrc1fAZLlpAbzHjwsx0Q2NuNdz4vEwGOUYOm+PqGxK7T7mFN1H/e2XAOYRIFCowus0yOIRgLouH+kwa3vn5nVyk6XKfBFHe5yCcuTRzM9hYz5JeJ75J1en+qFJ/Gi+Y1si+J4983+LmiVZbhjINZEtbqJh9PQRu02Wu+qGUItoLWOQPq0fr2ximNUweOnL4LIZJe9B4W4mFfbdNUPMmz6LLehlDHJYC+QzC/Y/ObpTO9rwKDPiCXyAIlH1hDqEWDb+apopiQ9FOjpSniU6SMHAXq/wilcW/bJiZKMl2RfFuVx2kHG2KbUCT0YLlSMs6x2AdlW+t9aEok4M0Ny6YQPxHIhTskjs6qLLY17T7dsSG5f7duteEgzUwyGR/ZO7AgBx1CaanY4ZWQ9B9cM1VNiV0oGz+SmKJ/G91ndxYTEOAvFwTq9P/Lin+eYilrDl0g3SVy2W/o=
+        skinName: jigbon
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNDM0MTEwMiwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,owner,location,inventory,skintrait,mounttrait,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: smattox
+      cached-skin-uuid: fea22ef0-3efd-463b-8d3f-cc0e543fa57c
+    name: §5§lWARZONE
+    uuid: c1141fad-de37-4b10-ba19-5d0ee454dac7
+    traits:
+      location:
+        bodyYaw: 1.3583584
+        world: KitPVP_world
+        x: '-48.5675'
+        y: '84.0'
+        z: '-1257.5518'
+        yaw: '1.3584'
+        pitch: '-10.8'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: kp arena kitpvp2
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CazYjncy9nBpIx3sabHgxd/XzEkSBaLhZaXdL/2J6UD8SJEMZw622DhH5wH/7RM6wuW6nlBsNBBpg9NCepmNH1aJCAwTi7fYxzVwdvzzpS6E0YNmtdpQttwPyO9Jes2V08FN3c/95jNc+WuNUilUxxtRcU3fZJhIhGD+RXgihXfseRvJ+W2cjWP948nlG62gj46Nf5FEVuzmbSjGeAlxOvSp4aWGlXzoBvogDu3iHqt42A9xb0Gnr4kzxuDJQ+vgmuw70CZeemCKtAUvfvUDOYbbZjX7THwQHqWDlgop+decHewgBlqCKiQ/L+1hMJhs/8TJqbMo9e0wzdtbyCPd2P4lgE80kU31Cgny5BSkGwkr2yI+42Dl8HZPF2D93EDIcDydqLIwrO+vMaQJuZy2fGVUfWDBuZzc4+z+96SvVPMF4O39MKe+L4r45MfYFBngY6mraCCU7ILkIIDVLaDDDxfTZVgpRhX7uKz8/wx4FxZS72TsYY20INZGQ59+g+DLqffbsZ/5LYF4dw7FvgJ1gQQt+QLmAp9lAhuyoE+MZ9EMxTMNvC6bugR4Te5rYiuwdFvsHMjwu4yKw9iBSBfMqIQ5YHXKKiV7DNO3ef+16IvyMEqurtG8wPk+kYspxomGpNAKp+12sf+aPGPTLDW+CLXaxdfvfsuVW3PSk3+h6X4=
+        skinName: smattox
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTUyNDM2ODAwNiwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: type,commandtrait,equipment,inventory,location,owner,skintrait,mounttrait,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

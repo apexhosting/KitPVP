@@ -70,3 +70,12 @@ groups:
     - '*'
 schema-version: 1
 users:
+  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+    permissions:
+    - '*'
+    options:
+      name: AllanStrat
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    permissions: []
+    options:
+      name: AllanDev

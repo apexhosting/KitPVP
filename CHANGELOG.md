@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.3]
+
+### Changed
+- Corrected Arena Issues
+- Added Anticheat
+- Added AntiExploit
+- Added CombatLog
+- Added a new arena 'Warzone"
+- Added a new logo
+- Added stats NPCs and utils
+
 ## [2.2]
 
 ### Changed
@@ -49,6 +60,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.3]: https://github.com/apexhosting/KitPVP/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/KitPVP/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/KitPVP/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/KitPVP/releases/tag/2.0

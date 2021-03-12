@@ -1,73 +1,120 @@
 Kit:
   Permission: kp.kit.example
   Level: 0
-  Cooldown: 0
+  Cooldown: 1D:12H:10M:30S
 Inventory:
   Armor:
     Helmet:
-      Name: '&7Example Helmet'
-      Material: IRON_HELMET
+      Name: '&aSkull Item'
       Lore:
-      - '&7This is the helmet of the Example Kit.'
+      - '&7This is a player skull'
+      - '&7which can automatically'
+      - '&7be detected and saved'
+      - '&7when using /kp create'
+      Material: SKULL_ITEM
+      Skull: cervinakuy
     Chestplate:
-      Name: '&7Example Chestplate'
-      Material: IRON_CHESTPLATE
+      Name: '&aDyed Item'
       Lore:
-      - '&7This is the chestplate of the Example Kit.'
+      - '&7This is a dyed item which'
+      - '&7can include over 16 million'
+      - '&7different color combinations'
+      Material: LEATHER_CHESTPLATE
+      Dye:
+        Red: 127
+        Green: 63
+        Blue: 178
     Leggings:
-      Name: '&7Example Leggings'
+      Name: '&aEnchanted Item'
+      Lore:
+      - '&7This is an enchanted'
+      - '&7item which can support'
+      - '&7an unlimited amount of'
+      - '&7enchantments and can bypass'
+      - '&7vanilla enchantment limits.'
       Material: IRON_LEGGINGS
-      Lore:
-      - '&7These are the leggings of the Example Kit.'
+      Enchantments:
+        DEPTH_STRIDER: 10
     Boots:
-      Name: '&7Example Boots'
-      Material: IRON_BOOTS
+      Name: '&aItem'
       Lore:
-      - '&7These are the boots of the Example Kit.'
+      - '&7This is just a regular item.'
+      Material: GOLD_BOOTS
   Items:
     '0':
-      Name: '&7Example Sword'
-      Material: IRON_SWORD
+      Name: '&aCustomized Item'
       Lore:
-      - '&7This is the lore of the Example Sword.'
+      - '&3This is an item with a custom'
+      - '&cname and lore.'
+      Material: PAPER
     '1':
-      Name: '&7Example Bow'
-      Material: BOW
+      Name: '&aDamaged Item'
       Lore:
-      - '&7This is the lore of the Example Bow.'
+      - '&7This is a damaged item'
+      Durability: 10
+      Material: GOLD_PICKAXE
     '2':
-      Name: '&aExample Ability &7(Must be made in kit file)'
+      Name: '&aPotion Item'
+      Lore:
+      - '&7This is a regular potion item'
+      - '&7Splash potions are also supported'
+      Material: POTION
+      Type: POTION
+      Effects:
+        JUMP:
+          Amplifier: 1
+          Duration: 45
+    '7':
+      Name: '&aAbility Item'
+      Lore:
+      - '&7This is an ability item'
+      - '&7which can support messages,'
+      - '&7sounds, potion effects,'
+      - '&7and commands when right-clicked.'
+      - '&7It must be customized in'
+      - '&7the kit file.'
+      Material: EMERALD
+    '8':
+      Name: '&aSecond Ability Item &7(Unlimited custom abilities per kit!)'
       Material: GOLD_INGOT
       Amount: 3
+    Fill:
+      Name: '&aFill Item'
       Lore:
-      - '&7This is the lore of the Example Ability.'
-    '7':
-      Name: '&7Example Arrows'
-      Material: ARROW
-      Amount: 64
-      Lore:
-      - '&7These are the arrows for the Example Kit.'
-    '8':
-      Name: '&aTracking Compass'
-      Material: COMPASS
-      Lore:
-      - '&7Use this item to track players nearby.'
-Ability:
-  Activator:
-    Name: '&aExample Ability &7(Must be made in kit file)'
-    Material: GOLD_INGOT
-  Message:
-    Message: '%prefix% &7You have used your ability.'
-    Enabled: true
-  Sound:
-    Sound: FIZZ
-    Pitch: 1
-    Enabled: true
-  Potions:
-    SPEED: 5
-      Duration: 5
-  Commands:
+      - '&7This is a fill item which'
+      - '&7can fill up any blank slots'
+      - '&7in a kit. You must customize'
+      - '&7this in the kit file.'
+      Material: COOKIE
+Abilities:
+  SampleAbility:
+    Activator:
+      Name: '&aAbility Item'
+      Material: EMERALD
+    Cooldown:
+      Cooldown: 10S
+    Message:
+      Message: '%prefix% &7This is an example ability message.'
+    Sound:
+      Sound: NOTE_PLING
+      Pitch: 1
+      Volume: 1
+    Effects:
+      SPEED:
+        Amplifier: 5
+        Duration: 10
     Commands:
-    - 'console: This command is run from the console, you can use %player%'
-    - 'player: This command is run from the player, you can use %player%'
-    Enabled: false
+    - 'console: say Hi %player%, this is an example console command that can be run
+      when you use your ability.'
+    - 'player: me This is an example player command that can be run when you use your
+      ability.'
+  SecondAbility:
+    Activator:
+      Name: '&aSecond Ability Item &7(Unlimited custom abilities per kit!)'
+      Material: GOLD_INGOT
+    Message:
+      Message: '%prefix% &7KitPvP supports &aunlimited &7custom kits and each with
+        &aunlimited &7custom abilities!'
+Commands:
+- 'console: say These commands can optionally be included in your kit file'
+- 'console: say to be run when the kit is selected'

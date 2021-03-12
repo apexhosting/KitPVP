@@ -1,4 +1,7 @@
-# ABILITIES FILE - Customize nearly every aspect of the pre-made abilities.
+# To learn more about abilities, please
+# visit the abilities.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/abilities.yml
+
 Abilities:
   Archer:
     Item:
@@ -17,9 +20,6 @@ Abilities:
     Item:
       Name: '&aGun &7(Right Click)'
       Amount: 5
-    Message:
-      Message: '%prefix% &7You have used a &bGun&7.'
-      Enabled: false
     Sound:
       Sound: EXPLODE
       Pitch: 1
@@ -80,7 +80,7 @@ Abilities:
       Enabled: true
   Thunderbolt:
     Item:
-      Name: '&aLighting Strike &7(Click Player)'
+      Name: '&aLightning Strike &7(Click Player)'
       Amount: 3
     Message:
       Message: '%prefix% &7You have used a &bLighting Strike &7on &b%player%&7.'
