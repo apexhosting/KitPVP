@@ -26,10 +26,18 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    kp3spawn:
+        min: {x: 137, y: 20, z: 165}
+        max: {x: 158, y: 78, z: 196}
+        members: {}
+        flags: {pvp: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     __global__:
         members: {}
         flags: {vine-growth: deny, build: deny, fall-damage: deny, mob-damage: deny,
-            ice-melt: deny, leaf-decay: deny, interact: allow, pvp: allow, mob-spawning: deny}
+            leaf-decay: deny, ice-melt: deny, interact: allow, pvp: allow, mob-spawning: deny}
         owners: {}
         type: global
         priority: 0

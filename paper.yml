@@ -10,6 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
@@ -79,6 +80,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    allow-using-signs-inside-spawn-protection: false
+    fix-wither-targeting-bug: false
     should-remove-dragon: false
     ender-dragons-death-always-places-dragon-egg: false
     update-pathfinding-on-block-update: true

@@ -110,6 +110,7 @@ general:
     message: <a>
   translation:
     locale: ''
+  reload-warning-enabled: true
 advanced:
   check-minecraft-version: true
 economy:

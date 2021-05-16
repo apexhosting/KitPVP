@@ -145,3 +145,11 @@ Arenas:
       Z: 461
       Yaw: 358.21625
       Pitch: 5.099749
+  kitpvp3:
+    '1':
+      World: kitpvp3
+      X: 146
+      Y: 21
+      Z: 183
+      Yaw: 268.9651
+      Pitch: 0.44985
