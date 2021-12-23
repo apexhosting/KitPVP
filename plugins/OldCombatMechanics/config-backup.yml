@@ -2,7 +2,7 @@
 #                                                                           #
 # Bukkit Page: http://dev.bukkit.org/bukkit-plugins/oldcombatmechanics/     #
 # Spigot Page: https://www.spigotmc.org/resources/oldcombatmechanics.19510/ #
-# GitHub Page: https://github.com/kernitus/BukkitOldCombatMechanics/         #
+# GitHub Page: https://github.com/kernitus/BukkitOldCombatMechanics/        #
 #                                                                           #
 #############################################################################
 
@@ -18,11 +18,11 @@ enableIndividualToggle: false
 # This is for modules such as sword blocking and disable-elytra
 interactive: [crafting_table,enchantment_table,anvil,brewing_stand,trapped_chest,chest,bed,boat,fence_gate,dispenser,dropper,furnace,jukebox,ender_chest,stone_button,wood_button,beacon,tripwire_hook,hopper,daylight_detector,daylight_detector_inverted,item_frame,diode,diode_block_off,diode_block_on,redstone_comparator,redstone_comparator_off,redstone_comparator_on,acacia_door,birch_door,dark_oak_door,jungle_door,spruce_door,wood_door,workbench,bed_block,lever,trap_door,burning_furnace,spruce_fence_gate,birch_fence_gate,jungle_fence_gate,dark_oak_fence_gate,acacia_fence_gate,white_shulker_box,orange_shulker_box,magenta_shulker_box,light_blue_shulker_box,yellow_shulker_box,lime_shulker_box,pink_shulker_box,gray_shulker_box,silver_shulker_box,cyan_shulker_box,purple_shulker_box,blue_shulker_box,brown_shulker_box,green_shulker_box,red_shulker_box,black_shulker_box,barrel]
 
-
+worlds-is-blacklist: false
 # To use the per-world feature you must specify a list of worlds in square brackets []
-# For example (names are case sensitive):
+# If empty, will be enabled in all worlds. Otherwise acts as whitelist / blacklist
+# A few examples:
 # worlds: [world,survival,creative,SkyWars]
-# Another example (for 1 world): 
 # worlds: [bestWorld]
 
 disable-attack-cooldown:
@@ -62,6 +62,9 @@ disable-crafting:
   worlds: []
   # List of denied items
   denied: [shield]
+  # Show the user a message if they try to craft a blacklisted item
+  showMessage: true
+  message: "&cYou cannot craft that item!"
 
 disable-offhand:
   # Disable the usage of the offhand
@@ -97,6 +100,9 @@ disable-enderpearl-cooldown:
   worlds: []
   # The cooldown, in seconds
   cooldown: 0
+  # Show the user a message if they try to use an enderpearl and the cooldown has not expired yet
+  showMessage: true
+  message: "&cYou must wait &7%ds&c before using an enderpearl again!"
 
 old-tool-damage:
   # This is to set the tool damage as in pre-1.9
@@ -174,7 +180,25 @@ old-golden-apples:
   enabled: true
   worlds: []
   # Cooldown between eating the apples, in seconds
-  cooldown: 0
+  cooldown:
+    # The cooldown for normal golden apples
+    normal: 0
+    # The cooldown for enchanted golden apples
+    enchanted: 0
+    # Whether the two apple types share a cooldown.
+    # If this is true:
+    #   1. Eating any apple resets both cooldowns
+    #   2. Each apple type can only be eaten when its cooldown time is over
+    #      This means that when you eat *any* apple you start two parallel cooldowns: One for enchanted and one
+    #      for normal apples. Each type can only be eaten when its cooldown is over.
+    #      Once any apple is eaten, both cooldowns are restarted, so you can not eat either type again
+    #      before its full cooldown is over.
+    #   3. To have the plugin treat normal and enchanted golden apples as having the same cooldown,
+    #      then set the same cooldown time and enable shared mode. (This was the old mode)
+    # If this is false:
+    #   Eating an enchanted apple will prevent any *enchanted* apple type from being eaten before the cooldown is over
+    #   Eating a normal apple will prevent any *normal* apple type from being eaten before the normal cooldown is over
+    is-shared: false
   # If you want to allow enchanted golden apple crafting
   enchanted-golden-apple-crafting: true
   # Enabling this makes the potion effects gained by eating golden apples
@@ -228,6 +252,13 @@ old-fishing-knockback:
   # This is the delay in milliseconds in-between rod damage, so the player hit has time to fall back down
   hitCooldown: 1000
 
+fishing-rod-velocity:
+  # In 1.9+ fishing rods go 8 blocks instead of 12 blocks
+  # This is due to both gravity and initial launch speed
+  # Set to true to revert back to the old calculations and gravity
+  enabled: true
+  worlds: []
+
 projectile-knockback:
   # This adds knockback and/or damage to players when they get hit by snowballs, eggs & enderpearls
   # This has been a Bukkit bug for so long people thought it was vanilla when it was recently patched
@@ -241,14 +272,15 @@ projectile-knockback:
 
 old-player-regen:
   # This is to make players' regeneration act mostly like it did in pre-1.9
-  # It's hard to make it behave exactly like before, but in general this makes it work like in pre-1.9
+  # Based on https://minecraft.gamepedia.com/Hunger?oldid=948685
   enabled: true
   worlds: []
-  # How often, in seconds, a player should regenerate health
-  frequency: 3
+  # How often a player should regenerate health, in milliseconds (In 1.8: 4 seconds)
+  # The foodTickerTimer might not be perfectly accurate so we give it ~10ms of leeway
+  interval: 3990
   # How many half-hearts the player should heal by, every seconds specified above
   amount: 1
-  # How much exhaustion healing should give to the player. In 1.8: 3    In 1.9: 4    In 1.11: 6
+  # How much exhaustion the player should get from healing. In 1.8: 3    In 1.9: 4    In 1.11: 6
   # If, after adding this, Minecraft finds the value is above 4, it subtracts 4
   # and either reduces saturation or, if saturation is 0, reduces food level by 1 (1/2 a stick)
   exhaustion: 3
@@ -286,6 +318,7 @@ disable-bow-boost:
 old-potion-effects:
   # This is to restore the 1.8 potion effects and duration
   enabled: true
+  worlds: []
 
   ### DURATION: (in seconds)
   potion-durations:
@@ -420,7 +453,7 @@ old-potion-effects:
 
 chorus-fruit:
   # This makes the chorus fruit behaviour configurable
-  enabled: true
+  enabled: false
   worlds: []
   # The maximum distance the fruit can teleport the player. This a PER AXIS value, so this outlines a cube with
   # 2 * max-teleportation-distance as the side length
@@ -440,10 +473,19 @@ chorus-fruit:
   hunger-value: 4
 
 old-burn-delay:
-  # This makes it so entities will immediately be set on fire when entering it
+  # This makes it so entities will immediately start to burn when entering fire
   enabled: false
+  worlds: []
   # How long, in ticks, entities should be on fire for after not being in direct contact anymore
   fire-ticks: 120
+
+attack-frequency:
+  # Allows changing the player invulnerability between hits
+  enabled: true
+  worlds: []
+  # The hit delay to apply. Default for 1.9+ is 20 ticks (1 second)
+  playerDelay: 18
+  mobDelay: 16
 
 ################################
 #### SUPPORT SETTINGS BELOW ####
@@ -460,4 +502,4 @@ debug:
   enabled: false
 
 # DO NOT CHANGE THIS NUMBER AS IT WILL RESET YOUR CONFIG
-config-version: 43
+config-version: 49

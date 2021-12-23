@@ -72,6 +72,7 @@ PlayerTracker:
   Message: '&b&lTarget: &3%nearestplayer% &b&lDistance: &3%distance%'
   NoneOnline: '&cNo Players Online'
   TrackBelowY: 128
+  RefreshOnlyWhenHeld: true
 Soups:
   Name: '&aRegenerative Soups &7(Right Click)'
   RegenAmount: 6
@@ -123,6 +124,7 @@ Arena:
   ResetKillStreakOnLeave: true
   ToSpawnOnJoin: true
   DeathParticles: true
+  PreventArenaSignUseWithKit: true
 Other:
   AutomaticallyAddKitToMenu: true
 Spawn:
@@ -153,3 +155,5 @@ Arenas:
       Z: 183
       Yaw: 268.9651
       Pitch: 0.44985
+PreviewMenuBackArrowCommands:
+- 'player: kp menu'

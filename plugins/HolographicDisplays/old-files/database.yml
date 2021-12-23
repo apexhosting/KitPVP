@@ -1,0 +1,44 @@
+arenaone:
+  location: KitPVP_world, -43.510, 88.200, -1256.219
+  lines:
+  - '&8---------'
+  - '&4&lBATTLE REALM'
+  - '&8&m---------'
+arenatwo:
+  location: KitPVP_world, -20.935, 88.200, -1238.469
+  lines:
+  - '&8&m---------'
+  - '&b&lArena Two'
+  - '&8&m---------'
+arenathree:
+  location: KitPVP_world, -66.257, 88.200, -1238.506
+  lines:
+  - '&8&m---------'
+  - '&4&lArena Three'
+  - '&8&m---------'
+spawn:
+  location: KitPVP_world, -43.454, 89.200, -1245.726
+  lines:
+  - '&b&lKitPvP &6&lServer'
+  - '&8&m---------'
+  - '&7&oWelcome to Apex Hosting''s'
+  - '&7&oKitPvP Server! Get started by'
+  - '&7&oClicking on the menu icon in'
+  - '&7&oyour hotbar and selecting a'
+  - '&7&okit that you''d like to use!'
+  - '&8&m---------'
+  - '&7&oThen go to any arena and begin the fight!'
+i1:
+  location: KitPVP_world, -38.525, 86.603, -1257.583
+  lines:
+  - '&eRight Click'
+i2:
+  location: KitPVP_world, -48.567, 86.569, -1257.544
+  lines:
+  - '&eRight Click'
+warzone:
+  location: kitpvp2, 267.984, 76.017, 469.657
+  lines:
+  - '&5&lWARZONE'
+  - '&7The real battlefield'
+  - '&4PvP Below!'

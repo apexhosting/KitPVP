@@ -20,6 +20,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: kp stats
@@ -39,9 +41,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,inventory,owner,location,skintrait,mounttrait,scoreboardtrait,spawned
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -64,6 +67,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -92,9 +97,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,inventory,location,owner,skintrait,mounttrait,scoreboardtrait,spawned
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -117,6 +123,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: kp stats
@@ -136,9 +144,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,owner,inventory,location,skintrait,mounttrait,scoreboardtrait,spawned
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -161,6 +170,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -189,9 +200,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,location,owner,inventory,skintrait,mounttrait,spawned,scoreboardtrait
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -214,6 +226,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: kp stats
@@ -233,9 +247,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,owner,location,inventory,skintrait,mounttrait,spawned,scoreboardtrait
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -258,6 +273,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: kp arena kitpvp2
@@ -277,9 +294,10 @@ npc:
         updateSkins: false
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,commandtrait,equipment,inventory,location,owner,skintrait,mounttrait,spawned,scoreboardtrait
+      sneak:
+        sneaking: false
+    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

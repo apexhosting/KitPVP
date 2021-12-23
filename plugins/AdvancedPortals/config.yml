@@ -29,6 +29,8 @@ BlockSpectatorMode: false
 PortalCooldown: 5
 ThrowbackAmount: 0.7
 CommandLevels: opchek
-ConfigVersion: 0.5.11
+ConfigVersion: 0.5.13
 DisableGatewayBeam: true
 CommandLogs: true
+ForceEnableProxySupport: false
+ProxyTeleportDelay: 0
