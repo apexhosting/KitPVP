@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.6]
+
+### Changed
+- Updated Main and plugin jars to 1.18.1
+
 ## [2.5]
 
 ### Changed
@@ -75,6 +80,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.6]: https://github.com/apexhosting/KitPVP/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/KitPVP/releases/tag/2.5
 [2.4]: https://github.com/apexhosting/KitPVP/releases/tag/2.4
 [2.3.1]: https://github.com/apexhosting/KitPVP/releases/tag/2.3.1
