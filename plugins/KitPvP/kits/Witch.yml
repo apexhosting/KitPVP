@@ -33,13 +33,13 @@ Inventory:
         Green: 0
         Blue: 139
   Items:
-    '0':
+    0:
       Name: '&aWitch''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aPotion Switcher &7(Right Click)'
       Material: GLASS_BOTTLE
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

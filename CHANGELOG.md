@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+
+## [3.0]
+
+###Changed
+
+#KitPVP re-updated.
+
+- In the following update, the maps have now been replaced by custom builds.
+
 ## [2.7]
 
 ### Changed
@@ -85,6 +94,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+
+[3.0]: https://github.com/apexhosting/KitPVP/releases/tag/3.0
 [2.7]: https://github.com/apexhosting/KitPVP/releases/tag/2.7
 [2.6]: https://github.com/apexhosting/KitPVP/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/KitPVP/releases/tag/2.5

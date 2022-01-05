@@ -32,13 +32,13 @@ Inventory:
         Green: 76
         Blue: 76
   Items:
-    '0':
+    0:
       Name: '&aRhino''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aStampede &7(Right Click)'
       Material: FIREWORK_STAR
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:
@@ -50,7 +50,7 @@ Abilities:
       Name: '&aStampede &7(Right Click)'
       Material: FIREWORK_STAR
     Cooldown:
-      Cooldown: 60S
+      Cooldown: '60S'
     Message:
       Message: '%prefix% &7You have used your ability.'
     Sound:

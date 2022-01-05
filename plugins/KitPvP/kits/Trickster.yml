@@ -37,19 +37,19 @@ Inventory:
       Enchantments:
         thorns: 1
   Items:
-    '0':
+    0:
       Name: '&7Trickster''s Sword'
       Material: STONE_SWORD
       Enchantments:
         knockback: 2
-    '1':
+    1:
       Name: '&7Trickster''s Fishing Rod'
       Material: FISHING_ROD
-    '2':
+    2:
       Name: '&aSwitcher Pellets &7(Right Click)'
       Material: EGG
       Amount: 4
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

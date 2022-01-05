@@ -2,6 +2,7 @@ Kit:
   Permission: kp.kit.example
   Level: 0
   Cooldown: 1D:12H:10M:30S
+  Health: 6
 Inventory:
   Armor:
     Helmet:
@@ -41,19 +42,19 @@ Inventory:
       - '&7This is just a regular item.'
       Material: GOLD_BOOTS
   Items:
-    '0':
+    0:
       Name: '&aCustomized Item'
       Lore:
       - '&3This is an item with a custom'
       - '&cname and lore.'
       Material: PAPER
-    '1':
+    1:
       Name: '&aDamaged Item'
       Lore:
       - '&7This is a damaged item'
       Durability: 10
       Material: GOLD_PICKAXE
-    '2':
+    2:
       Name: '&aPotion Item'
       Lore:
       - '&7This is a regular potion item'
@@ -64,7 +65,7 @@ Inventory:
         JUMP:
           Amplifier: 1
           Duration: 45
-    '7':
+    7:
       Name: '&aAbility Item'
       Lore:
       - '&7This is an ability item'
@@ -74,7 +75,7 @@ Inventory:
       - '&7It must be customized in'
       - '&7the kit file.'
       Material: EMERALD
-    '8':
+    8:
       Name: '&aSecond Ability Item &7(Unlimited custom abilities per kit!)'
       Material: GOLD_INGOT
       Amount: 3
@@ -92,7 +93,7 @@ Abilities:
       Name: '&aAbility Item'
       Material: EMERALD
     Cooldown:
-      Cooldown: 10S
+      Cooldown: '10S'
     Message:
       Message: '%prefix% &7This is an example ability message.'
     Sound:
@@ -104,17 +105,14 @@ Abilities:
         Amplifier: 5
         Duration: 10
     Commands:
-    - 'console: say Hi %player%, this is an example console command that can be run
-      when you use your ability.'
-    - 'player: me This is an example player command that can be run when you use your
-      ability.'
+      - 'console: say Hi %player%, this is an example console command that can be run when you use your ability.'
+      - 'player: me This is an example player command that can be run when you use your ability.'
   SecondAbility:
     Activator:
       Name: '&aSecond Ability Item &7(Unlimited custom abilities per kit!)'
       Material: GOLD_INGOT
     Message:
-      Message: '%prefix% &7KitPvP supports &aunlimited &7custom kits and each with
-        &aunlimited &7custom abilities!'
+      Message: '%prefix% &7KitPvP supports &aunlimited &7custom kits and each with &aunlimited &7custom abilities!'
 Commands:
-- 'console: say These commands can optionally be included in your kit file'
-- 'console: say to be run when the kit is selected'
+  - 'console: say These commands can optionally be included in your kit file'
+  - 'console: say to be run when the kit is selected'

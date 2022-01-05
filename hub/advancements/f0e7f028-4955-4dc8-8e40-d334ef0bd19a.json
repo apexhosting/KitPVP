@@ -1,0 +1,13 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2022-01-05 22:25:07 +0000",
+      "minecraft:river": "2022-01-05 22:18:25 +0000",
+      "minecraft:dripstone_caves": "2022-01-05 22:10:26 +0000",
+      "minecraft:forest": "2022-01-05 22:26:17 +0000",
+      "minecraft:old_growth_birch_forest": "2022-01-05 22:26:12 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2865
+}

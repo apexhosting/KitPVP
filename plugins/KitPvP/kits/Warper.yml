@@ -33,18 +33,18 @@ Inventory:
         Green: 0
         Blue: 0
   Items:
-    '0':
+    0:
       Name: '&aWarper''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aEnder Pearls'
       Material: ENDER_PEARL
       Amount: 4
-    '2':
+    2:
       Name: '&aNearest Player Teleporter &7(Right Click)'
       Material: EYE_OF_ENDER
       Amount: 3
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

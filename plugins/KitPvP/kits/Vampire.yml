@@ -31,16 +31,16 @@ Inventory:
       Dye:
         Red: 252
         Green: 45
-        Blue: 59
+        Blue: 59 
   Items:
-    '0':
+    0:
       Name: '&aVampire''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aBlood Suckers &7(Click Player)'
       Material: GHAST_TEAR
       Amount: 5
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

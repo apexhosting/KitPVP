@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 5
+last-created-npc-id: 7
 npc:
   '5':
     metadata:
@@ -44,7 +44,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
+    traitnames: owner,location,skintrait,commandtrait,equipment,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -100,7 +100,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
+    traitnames: owner,location,skintrait,equipment,commandtrait,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -147,7 +147,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
+    traitnames: owner,location,skintrait,equipment,commandtrait,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -203,7 +203,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
+    traitnames: owner,location,skintrait,commandtrait,equipment,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -216,13 +216,13 @@ npc:
     uuid: 5f5bc7e6-25f7-4acd-b8fb-d4a30cf70a3f
     traits:
       location:
-        bodyYaw: 17.101562
-        world: KitPVP_world
-        x: '-38.561'
-        y: '84.0'
-        z: '-1257.5215'
-        yaw: '17.1016'
-        pitch: '3.5998'
+        bodyYaw: -128.70604
+        world: hub
+        x: '136.3691'
+        y: '21.0'
+        z: '-114.3088'
+        yaw: '-121.7928'
+        pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -250,7 +250,20 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,skintrait,inventory,sneak,mounttrait,owner,spawned
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,location,skintrait,commandtrait,equipment,type,inventory,spawned,mounttrait,lookclose,sneak,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -297,7 +310,101 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: equipment,type,scoreboardtrait,location,commandtrait,inventory,skintrait,sneak,mounttrait,owner,spawned
+    traitnames: owner,location,skintrait,equipment,commandtrait,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid-name: blackman2000
+      cached-skin-uuid: b0c9745e-b894-4bd8-a92c-50a9a5083240
+    name: §2§lFOREST
+    uuid: 8d07fbd7-a20b-45d6-a7fe-48b5d8593b04
+    traits:
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ul9gKIpdOBB1OJkTIahngc7VpLW6/nMzf1IA/bgwvtI+473iIQ01kANdFieoHaz5RBezYgDhpcfyJLPxO4ZlCsa3X4KgTXpVukPqWjU6fr3Bw1JhNoaZuqkE87ZV0TNe2oLeuqKMmQL6i2aVbMmFBUWFjlBbNdJ9F3mBvGM27VtG8urKFYbuLLxZSVRau7fPKt/53K5smrCJWYsXl4xeXfunEHF11mWIAiTp74oZM1+wuJbj63xZbOv1t5G3VO2zwf31l7XrQKcrq2zkqLChhVvJ9wZCWnAj3lBP0ApSHdKMOZMPbWM1Nlpui6V41okYAcEkWyGxrqua56S/VqPg7I9hg5UhYVOurWDOfYO0d4Eer1vJjAtqAZw6xdWGD+4316aFdMam1iapwzypCyy+prLcjxfNkieLJA2NKX1/Nn/SdAmUK0ylPUr2rJbYv+7DADIDJs8eug2wmB4Xr3Rx5E41bvMyjGOJ/odvI7Q+YqPdOeyMic5APbiUhzfG6zXIswm8whyxjfiNFYq0gm5nOzi/d4jjU7I7BLwJSdGH2zw0b18LpRGmil5uN1iwdeP0wVbClN5JPMts1zA8SZCkeIIUaQ2R+NkR0RFHa6IgvKB73CQmIcJR+OT6+pU0kwtRDfOXldeCfkL4d51/xFZ3KfAzUcrim7GAxs1jxDCmrNE=
+        skinName: blackman2000
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MTQxOTgzMDYyNSwKICAicHJvZmlsZUlkIiA6ICJiMGM5NzQ1ZWI4OTQ0YmQ4YTkyYzUwYTlhNTA4MzI0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJibGFja21hbjIwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODllOGEyMWZjODUxN2MyMGVmZDA2NDM3OGUxZjMzZTBjZGEzY2RjNGU2ZTcwNDI3NmY5OGE5YWVjZDAyZDNjZCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kp arena forest
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      location:
+        bodyYaw: -68.707245
+        world: hub
+        x: '118.1498'
+        y: '19.0'
+        z: '-121.3907'
+        yaw: '-68.7072'
+        pitch: '-1.3144'
+      sneak:
+        sneaking: false
+    traitnames: owner,location,skintrait,equipment,commandtrait,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    metadata:
+      cached-skin-uuid-name: schvaar
+      cached-skin-uuid: 50acbb31-4912-4fca-afc0-9d3e7443a222
+    name: §6§lWEST
+    uuid: 90f84c7e-3e4d-4713-a6d7-2c13016fa2f6
+    traits:
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: J8mjsfx/qR5+8r4WCI4M275uN2gpwBOp8B82CqHyLcxC9y9/34ydm7oT48/4VdnH1DS4OkLgvWOJm9ATdzKNfaxj77QjxNhLMVzbSwYSerB6nKmNOmXImhxxKc7KysYGHHAfEnZU8RUv1kqd2S6k1iV/GPhHsEKzyq8oyKPYyau79N9fwbSegdrOFMMKJvWiYzOIeP9x3NQxnEB2Q1DrWw9sHpC8TM+U7AUh04aVUPdgGieBuAlvQgCJPrYlxybUIokt8O2rdAcDBaAJ5b+ii1aBRxLfuUCf7qPHsmyuW+L7DiWA38BMJaRYLJvtmpy3Z+vkMjyM+aN7Rip+GRxl/hrsEP/8f3AePeK+RzcvPd2Lo2sfpT4huitM3iwR4ZFhBtjuE7O17H0qv3gSnvwS4WvE4+qADJZUhw+izqL84ZB8zXNZdPrC3Pn2h2q531vwLgGZ69tWMszPIbJO5G+CXhwiRmgNlQabwv1m94nWak8Wboz51w4DH84zPrRLdEU/+g7hRTLPynkbdTXVPI2I+GKovlgL4BXI4VD/xOF4gnIBRe10rj5pRkKW6HI/NRWq6uUYeuE5cOAwWLDSWp9K14TJ4oZ5uLsy+W1gC/ZG9ZNUSjCO97bAxLSwWjFt736XmE4Hh5uLlus32Bq+Il6a0kAvmCb4wREkawyVUvvu9gc=
+        skinName: schvaar
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MTQxOTc2OTczNywKICAicHJvZmlsZUlkIiA6ICI1MGFjYmIzMTQ5MTI0ZmNhYWZjMDlkM2U3NDQzYTIyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTY2h2YWFyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4NGQ5NDkyOTdiZjQxZWUyMDA0MTYzMDY0N2FmNGRjZDdmMWMwZmMzODBmOGRkNzE1MjU2Yzk1YzRiZGNhYTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kp arena west
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      location:
+        bodyYaw: -124.51111
+        world: hub
+        x: '118.3906'
+        y: '19.0'
+        z: '-113.5065'
+        yaw: '-124.5111'
+        pitch: '4.1446'
+      sneak:
+        sneaking: false
+    traitnames: owner,location,skintrait,commandtrait,equipment,type,inventory,spawned,mounttrait,scoreboardtrait,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
