@@ -17,9 +17,9 @@ Items:
     Slot: 8
     BungeeCord:
       Server: Hub
-      Enabled: true
+      Enabled: false
     Commands:
-    - 'player: spawn'
+    - 'console: spawn %player%'
     - 'console: clear %player%'
 Chat:
   Format: '%level% &e%player% &f%message%'
@@ -85,21 +85,14 @@ Soups:
 TNT:
   Name: '&aThrowable TNT &7(Right Click)'
   Enabled: true
+PreviewMenuBackArrowCommands:
+- 'player: kp menu'
 Commands:
   Alias:
     Spawn: false
     Kit: false
     Kits: false
     Stats: false
-Storage:
-  Type: YAML
-  MySQL:
-    Host: planetgallium.com
-    Database: kitpvp
-    Table: kitpvp_userdata
-    Port: 3306
-    Username: walrus
-    Password: supersecretpassword
 Arena:
   ClearPotionEffectsOnJoin: true
   ClearInventoryOnJoin: true
@@ -115,6 +108,7 @@ Arena:
   PreventChestOpen: true
   PreventFallDamage: false
   PreventDeathDrops: true
+  PreventArenaSignUseWithKit: true
   KeepWeatherAtSunny: true
   GiveItemsOnClear: true
   GiveItemsOnRespawn: true
@@ -124,36 +118,25 @@ Arena:
   ResetKillStreakOnLeave: true
   ToSpawnOnJoin: true
   DeathParticles: true
-  PreventArenaSignUseWithKit: true
 Other:
   AutomaticallyAddKitToMenu: true
 Spawn:
   Time: 5
   Enabled: true
 Arenas:
-  kitpvp1:
+  forest:
     '1':
-      World: kitpvp1
-      X: 0
-      Y: 90
-      Z: 90
-      Yaw: 184.04755
-      Pitch: 13.499645
-  kitpvp2:
+      World: forest
+      X: 111
+      Y: 82
+      Z: 57
+      Yaw: 90.21533
+      Pitch: 1.7134259
+  west:
     '1':
-      World: kitpvp2
-      X: 267
-      Y: 72
-      Z: 461
-      Yaw: 358.21625
-      Pitch: 5.099749
-  kitpvp3:
-    '1':
-      World: kitpvp3
-      X: 146
-      Y: 21
-      Z: 183
-      Yaw: 268.9651
-      Pitch: 0.44985
-PreviewMenuBackArrowCommands:
-- 'player: kp menu'
+      World: west
+      X: 102
+      Y: 107
+      Z: -25
+      Yaw: 139.95044
+      Pitch: 4.7756224

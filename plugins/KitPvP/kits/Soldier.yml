@@ -3,7 +3,7 @@ Kit:
   Level: 0
   Cooldown: 0
 Inventory:
-  Armor:
+  Armor:  
     Helmet:
       Name: '&7Soldier Helmet'
       Material: LEATHER_HELMET
@@ -33,24 +33,24 @@ Inventory:
         Green: 175
         Blue: 123
   Items:
-    '0':
+    0:
       Name: '&aSoldier''s Sword'
       Material: STONE_SWORD
-    '1':
+    1:
       Name: '&aSoldier''s Bow'
       Material: BOW
-    '2':
+    2:
       Name: '&aSoldier''s Fishing Rod'
       Material: FISHING_ROD
-    '3':
+    3:
       Name: '&aGun &7(Right Click)'
       Material: IRON_HOE
       Amount: 5
-    '7':
+    7:
       Name: '&aSoldier''s Arrows &7(+1 arrow each successful shot)'
       Material: ARROW
       Amount: 32
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

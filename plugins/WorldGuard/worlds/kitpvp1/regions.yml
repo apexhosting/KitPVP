@@ -15,7 +15,7 @@ regions:
         max: {x: 16, y: 138, z: -1177}
         members: {}
         flags: {water-flow: deny, build: deny, invincible: allow, block-break: deny,
-            interact: allow, pvp: deny, lava-flow: deny}
+            interact: allow, lava-flow: deny, pvp: deny}
         owners: {}
         type: cuboid
         priority: 0

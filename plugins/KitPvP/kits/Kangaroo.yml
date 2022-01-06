@@ -33,14 +33,14 @@ Inventory:
         Green: 42
         Blue: 42
   Items:
-    '0':
+    0:
       Name: '&aKangaroo''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aLauncher &7(Right Click)'
       Material: SADDLE
       Amount: 3
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:

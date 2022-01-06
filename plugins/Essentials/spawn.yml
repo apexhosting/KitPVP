@@ -1,8 +1,9 @@
-spawns: 
-  default: 
-    world: KitPVP_world
-    x: -43.56474561024108
-    y: 83.5
-    z: -1238.5389991243894
-    yaw: -178.65111
-    pitch: -9.900015
+spawns:
+  default:
+    world: afda1722-de7e-4af8-a53b-e8257e38fe2c
+    x: 145.3465399066227
+    y: 21.0
+    z: -117.37609684156327
+    yaw: 91.19454956054688
+    pitch: 22.235565185546875
+    world-name: hub

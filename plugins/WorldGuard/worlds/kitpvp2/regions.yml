@@ -28,7 +28,7 @@ regions:
         priority: 0
     __global__:
         members: {}
-        flags: {vine-growth: deny, build: deny, use: allow, fall-damage: deny, leaf-decay: deny,
+        flags: {vine-growth: deny, build: deny, fall-damage: deny, use: allow, leaf-decay: deny,
             ice-melt: deny, interact: allow, pvp: allow, mob-spawning: deny}
         owners: {}
         type: global

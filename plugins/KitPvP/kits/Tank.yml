@@ -17,13 +17,13 @@ Inventory:
       Name: '&7Tank Boots'
       Material: IRON_BOOTS
   Items:
-    '0':
+    0:
       Name: '&aTank''s Sword'
       Material: IRON_SWORD
-    '1':
+    1:
       Name: '&aSpeed Boost &7(Right Click)'
       Material: FEATHER
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Material: COMPASS
     Fill:
@@ -39,7 +39,7 @@ Abilities:
       Name: '&aSpeed Boost &7(Right Click)'
       Material: FEATHER
     Cooldown:
-      Cooldown: 40S
+      Cooldown: '40S'
     Message:
       Message: '%prefix% &7You have used a &bSpeed Boost&7.'
     Sound:

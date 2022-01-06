@@ -5,7 +5,6 @@ Kit PVP is a server variation that specializes mainly in PVP (Player vs Player).
 https://apexminecrafthosting.com/kit-pvp-server/
 
 ## Plugin List
-- [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356)
 - [AntiDisconnectSpam](https://www.spigotmc.org/resources/antidisconnectspam-remove-disable-fix-and-change-disconnect-spam.33344/)
 - [Citizens2](https://www.spigotmc.org/resources/citizens.13811/)
 - [Citizens CMD](https://www.spigotmc.org/resources/citizens-cmd-abandoned.30224/)
