@@ -17,6 +17,8 @@ npc:
       max-fall-distance: 3
     attack-range: 3.0625
     use-new-finder: false
+    defaults:
+      destination-teleport-margin: -1
   chat:
     options:
       bystanders-hear-targeted-chat: true

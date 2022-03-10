@@ -19,3 +19,8 @@ plugins/CoreProtect/database.db
 plugins/ExploitFixer/locales/*
 plugins/LuckPerms/libs/*
 wepif.yml
+hub/advancements/*
+plugins/bStats/config.yml
+plugins/CombatLogX/playerdata/*
+plugins/ExploitFixer/locales/*
+versions/*

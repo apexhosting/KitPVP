@@ -1,10 +1,10 @@
 # This is the Message file for all Custom Jumppads messages.
-# 
+#
 # All messages are fully customizable and support color codes, formatting and ASCII symbols.
 # Set the Prefix and use %prefix% to add the corresponding prefix to a message.
 # Prepend any message with <ActionBar> to send it as an ActionBar message.
 # Leave a message blank ('') to disable it.
-# 
+#
 # You can also create messages with Hover and Click events. Syntax options: (Space between comma and quote is NOT allowed)
 #  - ["Message","/Command"]
 #  - ["Message","Hover"]
@@ -14,7 +14,6 @@
 # You can add as many events to a message as you want. Example:
 # '%prefix% &cInvalid arguments! ["&c&n&oHelp","/jumppads help","&aClick to get help!"]'
 # The "Suggest" tag is used if the click event should suggest the command. Default is Run.
-
 
 Prefix: '&7[&eJump Pads&7]'
 Messages:

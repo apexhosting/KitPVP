@@ -5,6 +5,7 @@ Kit PVP is a server variation that specializes mainly in PVP (Player vs Player).
 https://apexminecrafthosting.com/kit-pvp-server/
 
 ## Plugin List
+- [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)
 - [AntiDisconnectSpam](https://www.spigotmc.org/resources/antidisconnectspam-remove-disable-fix-and-change-disconnect-spam.33344/)
 - [Citizens2](https://www.spigotmc.org/resources/citizens.13811/)
 - [Citizens CMD](https://www.spigotmc.org/resources/citizens-cmd-abandoned.30224/)
@@ -22,10 +23,10 @@ https://apexminecrafthosting.com/kit-pvp-server/
 - [Multiverse-Core](https://dev.bukkit.org/projects/multiverse-core)
 - [NametagEdit](https://www.spigotmc.org/resources/nametagedit.3836/)
 - [OldCombatMechanics](https://www.spigotmc.org/resources/oldcombatmechanics-disable-1-9-hit-cooldown.19510/)
-- [PermissionsEx](https://github.com/PEXPlugins/PermissionsEx)
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 - [ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)
+- [SirBlobmanCore](https://www.spigotmc.org/resources/sirblobmancore.83189/)
 - [Themis Anti Cheat](https://www.spigotmc.org/resources/themis-anti-cheat-1-17-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/)
 - [TitleManager](https://www.spigotmc.org/resources/titlemanager.1049/)
 - [Vault](https://www.spigotmc.org/resources/vault.34315/)
