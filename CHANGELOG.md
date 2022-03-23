@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [3.1]
 
-### Change
+### Changed
 - Fixed TNT not causing player damage due to the worlds using peaceful difficulty.
 - Fixed scoreboard streaks.
 
