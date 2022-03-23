@@ -2,9 +2,15 @@
 All notable changes to this project will be documented in this file.
 
 
+## [3.1]
+
+### Change
+- Fixed TNT not causing player damage due to the worlds using peaceful difficulty.
+- Fixed scoreboard streaks.
+
 ## [3.0]
 
-###Changed
+### Changed
 
 #KitPVP re-updated.
 

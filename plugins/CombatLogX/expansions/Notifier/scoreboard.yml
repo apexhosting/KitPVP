@@ -4,7 +4,7 @@
 # The Scoreboard is on the side of the screen
 # Different versions have different character limits so make sure you use them properly
 # If you are going to use the FeatherBoard trigger, set this to false
-enabled: true
+enabled: false
 
 # Set this to true to save the scoreboard the player had before combat
 # Otherwise, the main scoreboard will be restored instead
