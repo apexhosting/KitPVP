@@ -12,7 +12,7 @@ Scoreboard:
   - '&aName: &f%player%'
   - '&aKills: &f%kitpvp_stats_kills%'
   - '&aDeaths: &f%kitpvp_stats_deaths%'
-  - '&aK/D Ratio: &f%kitpvp_stats_kdr%'
+  - '&aK/D Ratio: &f%kitpvp_stats_kd%'
   - ' '
   - '&6&lLevel'
   - '&aLevel: &f%kitpvp_stats_level%/%max_level%'
