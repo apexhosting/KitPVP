@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.141.167.79
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1648587110389
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1648587174318
+  login: 1648587008110
+money: '0'
+last-account-name: Plub71
+lastlocation:
+  world: 704cc740-cd4f-4c8b-b050-bba6e0e48f8c
+  world-name: west
+  x: 99.58785769302297
+  y: 83.0
+  z: -83.69999998807907
+  yaw: -139.49169921875
+  pitch: 16.877330780029297
+logoutlocation:
+  world: 704cc740-cd4f-4c8b-b050-bba6e0e48f8c
+  world-name: west
+  x: 92.17491097103128
+  y: 84.0
+  z: -54.28862608267986
+  yaw: -16.56402587890625
+  pitch: 10.221384048461914

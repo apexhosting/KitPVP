@@ -1,0 +1,14 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+areas:
+  Hub:
+    difficulty: MEDIUM
+    max: 2147483647
+    pos1: hub,131,24,-124,-100.975555,40.499603
+    pos2: hub,75,77,-147,-69.62561,37.49958
+    fallpos: hub,137,21,-124,96.87421,5.8495393
+portals:
+  Hub:
+    area: Hub
+    loc: hub,135,21,-124,91.62421,89.85

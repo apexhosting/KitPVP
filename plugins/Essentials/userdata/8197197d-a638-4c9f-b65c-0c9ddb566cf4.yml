@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 181.115.60.107
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1648586809214
+  login: 1648584375538
+money: '0'
+last-account-name: EliasEnamorado
+lastlocation:
+  world: 822079d9-d17f-41c0-9357-0fc7a770d24f
+  world-name: forest
+  x: 89.93479145938609
+  y: 82.00133597911214
+  z: 61.219657317744456
+  yaw: 80.76532745361328
+  pitch: -11.636574745178223
+logoutlocation:
+  world: afda1722-de7e-4af8-a53b-e8257e38fe2c
+  world-name: hub
+  x: 130.22137250998009
+  y: 21.0
+  z: -86.69999998807907
+  yaw: -151.9632110595703
+  pitch: 24.03583526611328

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 24.128.154.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1648586620367
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1648587170564
+  login: 1648584715989
+money: '0'
+last-account-name: Cory
+lastlocation:
+  world: afda1722-de7e-4af8-a53b-e8257e38fe2c
+  world-name: hub
+  x: 137.71352023999663
+  y: 21.0
+  z: -126.6819246816452
+  yaw: 37.19482421875
+  pitch: 21.785619735717773
+logoutlocation:
+  world: 704cc740-cd4f-4c8b-b050-bba6e0e48f8c
+  world-name: west
+  x: 74.88644674427859
+  y: 85.0
+  z: -93.98349926657072
+  yaw: -5.248626708984375
+  pitch: 24.125701904296875

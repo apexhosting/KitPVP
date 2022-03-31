@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 7
+last-created-npc-id: 9
 npc:
   '5':
     metadata:
@@ -44,7 +44,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: mounttrait,inventory,skintrait,owner,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,commandtrait,equipment,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -100,7 +100,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: mounttrait,skintrait,owner,inventory,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,equipment,commandtrait,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -147,7 +147,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: mounttrait,owner,inventory,skintrait,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,equipment,commandtrait,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -203,7 +203,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: mounttrait,owner,skintrait,inventory,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,commandtrait,equipment,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -263,7 +263,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: mounttrait,owner,skintrait,inventory,scoreboardtrait,spawned,lookclose,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,lookclose,commandtrait,equipment,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -310,7 +310,7 @@ npc:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       sneak:
         sneaking: false
-    traitnames: mounttrait,inventory,skintrait,owner,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,equipment,commandtrait,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -357,7 +357,7 @@ npc:
         pitch: '-1.3144'
       sneak:
         sneaking: false
-    traitnames: mounttrait,owner,inventory,skintrait,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,equipment,commandtrait,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -404,7 +404,7 @@ npc:
         pitch: '4.1446'
       sneak:
         sneaking: false
-    traitnames: mounttrait,skintrait,owner,inventory,scoreboardtrait,spawned,type,commandtrait,location,sneak,equipment
+    traitnames: inventory,type,sneak,commandtrait,equipment,mounttrait,owner,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
