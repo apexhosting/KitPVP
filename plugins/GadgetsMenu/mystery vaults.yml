@@ -1,0 +1,29 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: EAST
+    Location:
+      world: hub
+      x: 133.0
+      y: 22.0
+      z: -126.0
+  '2':
+    BlockFace: EAST
+    Location:
+      world: hub
+      x: 133.0
+      y: 22.0
+      z: -110.0
+  '3':
+    BlockFace: EAST
+    Location:
+      world: hub
+      x: 82.0
+      y: 25.0
+      z: -118.0
+  '4':
+    BlockFace: NORTH
+    Location:
+      world: hub
+      x: 108.0
+      y: 20.0
+      z: -94.0

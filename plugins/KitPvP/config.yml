@@ -96,7 +96,7 @@ Commands:
 Arena:
   ClearPotionEffectsOnJoin: true
   ClearInventoryOnJoin: true
-  ClearInventoryOnLeave: false
+  ClearInventoryOnLeave: true
   ClearInventoryOnRespawn: true
   ClearInventoryOnKit: true
   ClearKitOnCommandSpawn: true
@@ -104,7 +104,7 @@ Arena:
   PreventBlockPlacing: true
   PreventItemDropping: true
   PreventHunger: true
-  PreventItemDurabilityDamage: false
+  PreventItemDurabilityDamage: true
   PreventChestOpen: true
   PreventFallDamage: false
   PreventDeathDrops: true

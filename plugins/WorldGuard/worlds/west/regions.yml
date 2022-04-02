@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {fall-damage: deny}
+        flags: {fall-damage: deny, pvp: allow}
         owners: {}
         type: global
         priority: 0

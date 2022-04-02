@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.46.214.142
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1648586839014
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1648587172414
+  login: 1648584717060
+money: '0'
+last-account-name: Schvaar
+lastlocation:
+  world: afda1722-de7e-4af8-a53b-e8257e38fe2c
+  world-name: hub
+  x: 163.3769677815481
+  y: 41.0
+  z: -137.69999998807907
+  yaw: 79.68115234375
+  pitch: -21.41461753845215
+logoutlocation:
+  world: 704cc740-cd4f-4c8b-b050-bba6e0e48f8c
+  world-name: west
+  x: 84.90145370721072
+  y: 104.0
+  z: -32.15704729473229
+  yaw: -132.44808959960938
+  pitch: 17.675743103027344

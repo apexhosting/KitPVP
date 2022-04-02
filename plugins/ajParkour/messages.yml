@@ -1,0 +1,207 @@
+#
+#
+# This is the messsages file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+# 	
+
+prefix: ''
+alreadyin: '&cYou are already in parkour!'
+start:
+  score: '&aStarted parkour! &7Try to beat your high-score of &r{SCORE}&7!'
+  first: '&aStarted parkour!'
+  no-area-player: '&cNo arena or player could be found called ''{INPUT}''!'
+  unknown-player: '&cCannot find that player!'
+  unknown-area: '&cCannot find that area!'
+  started-other: '&aStarted parkour for {PLY}!'
+  started-other-area: '&aStarted parkour for &l&f{PLY}&r&a on area &l&f{AREA}&r&a!'
+noperm: '&cYou do not have permission to do that!'
+score: '&7Score &r&l{SCORE}'
+beatrecord: '&aCongrats!&7 You beat your previous score of &f{SCORE}&7!'
+beatrecord-ingame: '&aCongrats! &7You just beat your previous highscore! Keep going!'
+disabledworld: '&cYou cannot start parkour from this world!'
+block:
+  potion: '&cNope!'
+  place: '&cNope!'
+  break: '&cNope!'
+numberformatexception: '&cThat is not a valid number!'
+areafull: '&cCould not start parkour because the area is full! &7Try again later.'
+must-be-ingame: '&cYou must be in-game to do that!'
+not-in-game: '&cYou must do this command from the console!'
+couldnt-find-player: '&cCould not find player {PLAYER}'
+list:
+  header: '&9Players playing parkour:'
+  format: '&6{NAME} &7- &e{SCORE} jumps'
+  none: '&7None'
+nobodys-played-yet: '&cNobody has played parkour yet!'
+first-position: '&eFirst position set!'
+second-position: '&eSecond position set!'
+setup-done: '&aYou can now do &2/ajParjour start&a to do parkour!'
+reload:
+  usage: '&cUsage: /{CMD} reload <file>&7 Files: {POSS}'
+fallpos:
+  set: '&aFall position set!'
+  removed: '&aFall position removed!'
+top:
+  header: '&9Top Scores:'
+  header-area: '&9Top Scores for {AREA}:'
+  format: '&a{#}. &6{NAME} &e{SCORE} jumps'
+fall:
+  normal: '&cYou fell! &7Your score was &r{SCORE}'
+  force:
+    base: '&cYour parkour game was ended because '
+    reasons:
+      teleport: you teleported
+      afk: you went AFK.
+errors:
+  blocknotair:
+    base: '&c&lAn error occured:&r&c The block is not air!'
+    player: '&6Tell an admin, and try again later.'
+    admin: '&6Make sure the parkour area is completly air, and that the plugin has
+      been correctly set up by reading /{CMD} setup.'
+  notsetup:
+    base: '&cajParkour has not been set up yet.'
+    player: '&6Ask an admin to set it up!'
+    admin: '&6For info on how to set it up, do /{CMD} setup'
+  too-many-players: '&cThere are too many players in parkour right now. Try again
+    later.'
+migrate:
+  more-args: '&cPlease provide the source to migrate from!'
+  success: '&aMigrated {COUNT} scores!'
+  error: '&cSomething went wrong. There is probably more information in the console.'
+placeholders:
+  stats:
+    no-data: '---'
+    time-format: '{m}m {s}s'
+  current:
+    no-data: '0'
+commands:
+  help:
+    header: '&aajParkour made by &2ajgeiss0702&a!'
+    start: '&6 /{CMD} start &7- &9Start parkour!'
+    startarea: '&6 /{CMD} start <area> &7- &9Start parkour in a certain area.'
+    startothers: '&6 /{CMD} start <player> [area] &7- &9Start another player''s parkour
+      in a certain area.'
+    top: '&6 /{CMD} top &7- &9See the top 10 players!'
+    list: '&6 /{CMD} list &7- &9See everyone that is playing parkour, and their current
+      scores.'
+    setup: '&6 /{CMD} setup &7- &9Commands for setting up the plugin. &7(required
+      permssion: ajparkour.setup)'
+    portals: '&6 /{CMD} portals &7- &9Commands for setting up portals.'
+    areas: '&6 /{CMD} areas &7- &9List all loaded areas'
+  setup:
+    header: '&aajParkour&2 setup commands'
+    create: '&6 /{CMD} setup create &7- &9Create an area'
+    pos1: '&6 /{CMD} setup pos1 &7- &9Set the first position'
+    pos2: '&6 /{CMD} setup pos2 &7- &9Set the second position'
+    we: '&6 /{CMD} setup we &7- &9Select first and second position with worldedit'
+    fallpos: '&6 /{CMD} setup fallpos &7- &9Set fall position!'
+    edit: '&6 /{CMD} edit &7- &9Load an existing area into the editing queue.'
+    info: '&6 /{CMD} setup info &7- &9Show which points you have set so far!'
+    diff: '&6 /{CMD} setup difficulty &7- &9Set the area''s difficulty!'
+    max: '&6 /{CMD} setup max &7- &9Set the maximum number of people allowed in the
+      area!'
+    save: '&6 /{CMD} setup save &7- &9Saves and enabled the area. (This should be
+      done last)'
+  portals:
+    header: '&aajParkour&2 portal commands'
+    list: '&6 /{CMD} portals list &7- &9Lists all portals.'
+    create: '&6 /{CMD} portals create &7- &9Create a portal.'
+    remove: '&6 /{CMD} portals remove &7- &9Remove a portal.'
+  listareas:
+    header: '&9Loaded parkour areas:'
+    format: '&7 - &a{NAME} &7Difficulty: &9{DIFFICULTY}'
+    none: '&7No areas loaded!'
+  not-on-whitelist: '&cYou cannot use this command while on parkour!'
+not-from-console: '&cYou cannot run this command from the console!'
+setup:
+  no-name: '&cYou must name your area!'
+  invalid-name: '&cYou can''t name your arena that.'
+  edit:
+    no-name: '&cPlease enter the name of an area to edit!'
+    loaded: '&aArea loaded for editing! Re-set positions using /{CMD} setup'
+    no-area: '&cAn area with that name does not exist!'
+  need-to-create: '&aYou must create an area before editing it!'
+  we:
+    not-installed: '&cYou need to have WorldEdit installed to use this command!&7
+      Try using the built-in pos1 and pos2 setup commands.'
+    incomplete-selection: '&cYou must make a complete worldedit selection before doing
+      this!'
+  created: '&aArea created and added to the editing queue. See &2/ajParkour setup&a
+    or view the plugin page for steps to set it up!'
+  already-creating: '&cAn arena is currently being set up. &aPlease either save that
+    arena, or run this command again to override. (&c&lNOTE:&r&c Overriding will erase
+    all of the data of the arena being set up before!)'
+  info:
+    header: '&6Colors: &aSet &7Not set (optional) &cNot set (required)'
+  set:
+    pos1: '&aFirst position set!'
+    pos2: '&aSecond position set!'
+    fallpos: '&aFall position set!'
+    we: '&aPositions set!'
+    diff: '&aDifficulty set!'
+    max: '&aMax players set!'
+  max:
+    need-args: '&cPlease enter a number!'
+  diff:
+    not-valid: '&cInvalid difficulty! &7Valid difficulties are &feasy&7, &fmedium&7,
+      &fhard&7, &fexpert&7, and &fbalanced'
+    need-args: |-
+      &cPlease enter a difficulty! &7Valid difficulties are &feasy&7, &fmedium&7, &fhard&7, &fexpert&7, and &fbalanced&7.
+      &aBalanced difficulty will make the parkour get harder as the player gets higher scores.
+  save:
+    not-done: '&cYou have not set all of the required settings! &7Check &f/{CMD} setup
+      info&7 to see what you have left.'
+    success: '&aArena {NAME} saved and loaded!'
+  area:
+    too-small: |-
+      &cThe area you just created does not meet the minimum reccomended size of 20x20x20!
+      &7You can continue creating the area, but know you may run into issues with players running into each other, and possibly parkour going outside the area!
+      &7Your area: {l}x{w}x{h} (XxZxY)
+portals:
+  list:
+    header: '&2Parkour Portals'
+    format:
+      area: '&2{NAME} &7- &a{COORDS} &7- &a{AREA}'
+      no-area: '&2{NAME} &7- &a{COORDS}'
+  create:
+    help: '&cUsage: /{CMD} portals create <name> [area]'
+    success: '&aCreated a portal named ''{NAME}'' at your current location! &7You
+      might have to restart the server for the portal to start working.'
+  remove:
+    help: '&cPlease enter the name of the portal to be removed!'
+    cannot-find: '&cCannot find a portal with that name! Make sure you spelled it
+      correctly, and that you put the same caps too.'
+    success: '&aRemoved portal ''{NAME}''!'
+    no-portals: '&cNo portals have been set up yet! Please create portals before removing
+      them.'
+gui:
+  selector:
+    title: Block Selector
+    items:
+      random:
+        title: '&rRandom Blocks'
+        lore: '&7Will pick a random block.'
+      selected:
+        lore: '&aCurrently Selected'
+      nextpage:
+        name: '&a&lNext Page'
+      prevpage:
+        name: '&a&lPrevious Page'
+items:
+  blockselector:
+    name: '&aBlock Selector'
+reset:
+  usage: '&cUsage: /{CMD} reset <player>'
+  success: '&aReset score of {PLAYER} to 0'
+blockselector:
+  openedfor: '&aOpened block selector for {PLAYER}'
+areas:
+  remove:
+    help: '&cPlease enter the name of the area to be removed!'
+    cannot-find: '&cCannot find an area with that name! Make sure you spelled it correctly,
+      and that you put the same caps too.'
+    success: '&aRemoved area ''{NAME}''!'
