@@ -1,26 +1,24 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-##[3.2]
+## [3.2]
 
-###Changed
+### Changed
 
 - Custom Parkour on the lobby area with medium difficulty.
 - Added gadget menus.
 - Added mystery boxes.
 
-###Corrected
+### Corrected
 
 - Issue with the WEST arena on which there was no pvp on certain areas.
 - Issue with the players being able to bring kit items to lobby.
 - Blocks floating around the map.
 - Changed the chances on kits.
 
-###Removed
+### Removed
 
--Themis anticheat.
-
-#Since the last QA this is expected to be the final release for KitPvP.
+- Themis anticheat.
 
 
 ## [3.1]
@@ -33,7 +31,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-#KitPVP re-updated.
+- KitPVP re-updated.
 
 - In the following update, the maps have now been replaced by custom builds.
 
